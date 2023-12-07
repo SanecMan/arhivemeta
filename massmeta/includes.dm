@@ -99,7 +99,6 @@
 #include "code\modules\clothing\under\jobs\rnd.dm"
 #include "code\modules\clothing\under\jobs\civilian.dm"
 #include "code\modules\clothing\under\jobs\security.dm"
-#include "code\modules\clothing\under\jobs\medical.dm"
 #include "code\modules\jobs\job_types\security_officer.dm"
 #include "code\modules\jobs\job_types\medical_doctor.dm"
 #include "code\modules\jobs\job_types\research_director.dm"
