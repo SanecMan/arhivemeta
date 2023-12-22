@@ -1,0 +1,1647 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aY" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/item/pizzabox/margherita,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"bv" = (
+/obj/item/radio/intercom{
+	freerange = 1;
+	listening = 0;
+	name = "Custom Channel";
+	pixel_y = -27
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/machinery/light/dim/directional,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"bX" = (
+/obj/structure/chair/stool/bar/directional/east,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"cx" = (
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"cZ" = (
+/obj/structure/closet/crate/freezer,
+/obj/item/kitchen/rollingpin,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/item/food/cheese/wheel,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
+/obj/structure/sign/poster/random{
+	pixel_y = -32
+	},
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/powered)
+"dm" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"dB" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav)
+"dT" = (
+/obj/item/radio/intercom{
+	dir = 1;
+	freerange = 1;
+	listening = 0;
+	name = "Custom Channel";
+	pixel_y = 27
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"ea" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/kitchenspike,
+/obj/machinery/light/small/dim/directional/west,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/powered)
+"ej" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"ex" = (
+/obj/machinery/biogenerator,
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"eD" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/structure/chair/stool/bar,
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 30
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"fj" = (
+/obj/structure/table/reinforced,
+/obj/machinery/chem_dispenser/drinks,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"fk" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"fC" = (
+/turf/open/space/basic,
+/area/space)
+"fF" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/powered)
+"gm" = (
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"gX" = (
+/obj/structure/lattice,
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space/nearstation)
+"ht" = (
+/obj/structure/reagent_dispensers/watertank/high,
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"hR" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/powered)
+"hU" = (
+/obj/machinery/door/airlock,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"hY" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/powered)
+"ij" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"iy" = (
+/obj/docking_port/stationary{
+	dir = 4;
+	dwidth = 3;
+	height = 5;
+	id = "pizza_home";
+	name = "Pizza Delivery Outpost";
+	width = 10
+	},
+/turf/open/space/basic,
+/area/space)
+"iZ" = (
+/obj/structure/rack,
+/obj/item/tank/jetpack/carbondioxide,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/item/storage/toolbox/syndicate,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"mE" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/spawner/random/entertainment/arcade,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"nt" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/powered)
+"nX" = (
+/obj/structure/closet/crate/freezer,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/item/pizzabox/margherita,
+/obj/item/pizzabox/meat,
+/obj/item/pizzabox/mushroom,
+/obj/item/pizzabox/pineapple,
+/obj/item/pizzabox/vegetable,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"nY" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -27
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"oP" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/powered)
+"pe" = (
+/obj/machinery/seed_extractor,
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"pK" = (
+/obj/machinery/processor,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"qD" = (
+/obj/structure/reagent_dispensers/watertank/high,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/structure/sign/poster/random{
+	pixel_y = -32
+	},
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/powered)
+"qQ" = (
+/obj/machinery/chem_master/condimaster{
+	name = "CondiMaster Neo"
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/structure/sign/poster/random{
+	pixel_y = 32
+	},
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"rb" = (
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/structure/sign/poster/random{
+	pixel_y = -32
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"sj" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 30
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"so" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/external/glass,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/powered)
+"sw" = (
+/obj/machinery/requests_console{
+	department = "Pizza Outpost";
+	departmentType = 2;
+	pixel_x = -30
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"sD" = (
+/obj/structure/table/reinforced,
+/obj/machinery/microwave{
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/structure/sign/poster/random{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"sM" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/powered)
+"tb" = (
+/obj/machinery/vending/hydroseeds{
+	onstation = 0
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"ti" = (
+/obj/structure/table/wood,
+/obj/item/knife,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"tk" = (
+/obj/item/radio/intercom{
+	freerange = 1;
+	listening = 0;
+	name = "Custom Channel";
+	pixel_y = -27
+	},
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"tK" = (
+/obj/structure/table/glass,
+/obj/item/storage/bag/plants{
+	pixel_x = 5
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/item/storage/box/beakers{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/storage/box/syringes,
+/obj/structure/sign/poster/random{
+	pixel_y = -32
+	},
+/obj/machinery/light/dim/directional,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"uD" = (
+/obj/machinery/gibber,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/sign/poster/random{
+	pixel_y = -32
+	},
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/powered)
+"vf" = (
+/obj/effect/turf_decal/tile/red,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"vP" = (
+/obj/structure/table/reinforced,
+/obj/machinery/reagentgrinder{
+	pixel_x = -1;
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/structure/sign/poster/random{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"wo" = (
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/structure/sign/poster/random{
+	pixel_y = -32
+	},
+/obj/machinery/light/dim/directional,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"wT" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/machinery/food_cart,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/powered)
+"yz" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/item/pizzabox,
+/obj/item/pizzabox,
+/obj/item/pizzabox,
+/obj/item/pizzabox,
+/obj/item/pizzabox,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"yT" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/chair/stool/bar,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"zv" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"zC" = (
+/obj/structure/table/wood,
+/obj/item/kitchen/rollingpin,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"zS" = (
+/obj/structure/table/glass,
+/obj/item/shovel/spade,
+/obj/item/hatchet,
+/obj/item/cultivator,
+/obj/item/plant_analyzer,
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/light/dim/directional,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"At" = (
+/obj/structure/table/glass,
+/obj/item/stack/sheet/cardboard/fifty,
+/obj/item/storage/toolbox/syndicate,
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"BH" = (
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/powered)
+"Cf" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"CZ" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/item/radio{
+	freerange = 1;
+	name = "unrestricted radio"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"DD" = (
+/obj/structure/tank_dispenser/oxygen{
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"EE" = (
+/obj/machinery/vending/wardrobe/hydro_wardrobe{
+	onstation = 0
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"EJ" = (
+/obj/machinery/hydroponics/constructable,
+/obj/effect/turf_decal/box/white{
+	color = "#52B4E9"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"Fn" = (
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"Fo" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/powered)
+"Gg" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/desk_bell{
+	pixel_x = 7
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"Gl" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/powered)
+"GV" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/machinery/newscaster{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"HF" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"Ip" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/powered)
+"IQ" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/powered)
+"Jj" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
+"JC" = (
+/obj/machinery/door/airlock,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"JG" = (
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"Kl" = (
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"Ln" = (
+/obj/machinery/vending/hydronutrients{
+	onstation = 0
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"LV" = (
+/obj/machinery/newscaster{
+	pixel_x = -30
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"Mh" = (
+/obj/machinery/smartfridge,
+/turf/closed/wall,
+/area/ruin/space/has_grav/powered)
+"Mr" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/machinery/light/dim/directional,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"Mw" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/structure/sign/poster/random{
+	pixel_y = -32
+	},
+/obj/structure/chair/stool/bar/directional/south,
+/obj/machinery/light/dim/directional,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"ML" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"Nd" = (
+/obj/machinery/oven/range,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"Ne" = (
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"NR" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/structure/disposaloutlet{
+	dir = 8
+	},
+/turf/open/floor/plating/airless)
+"Ob" = (
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"Oy" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/food_or_drink/cake_ingredients,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"OF" = (
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"Qc" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/wall,
+/area/ruin/space/has_grav/powered)
+"QQ" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/obj/item/storage/box/monkeycubes,
+/obj/item/storage/box/monkeycubes,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/powered)
+"Ra" = (
+/obj/effect/mob_spawn/ghost_role/human/bartender,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"Rs" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/chair/stool/bar/directional/south,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"Ts" = (
+/obj/machinery/newscaster{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"Ue" = (
+/obj/structure/table/wood,
+/obj/item/book/manual/wiki/cooking_to_serve_man,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"Uw" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/icecream_vat,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/powered)
+"UE" = (
+/obj/structure/table/wood,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"Vi" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space/nearstation)
+"Wl" = (
+/obj/machinery/vending/dinnerware{
+	onstation = 0
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/structure/sign/poster/random{
+	pixel_y = 32
+	},
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"Wy" = (
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/powered)
+"WT" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/status_display/evac{
+	pixel_y = -32
+	},
+/obj/structure/chair/stool/bar/directional/east,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"Xj" = (
+/obj/machinery/vending/wardrobe/chef_wardrobe{
+	onstation = 0
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/structure/sign/poster/random{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered)
+"Xk" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/powered)
+"XO" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/machinery/status_display/evac{
+	pixel_y = -32
+	},
+/obj/machinery/light/dim/directional,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"Yh" = (
+/obj/structure/table/glass,
+/obj/item/gun/energy/floragun,
+/obj/item/geneshears,
+/obj/item/secateurs{
+	pixel_x = -6
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"Ys" = (
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+"YH" = (
+/obj/structure/table/reinforced,
+/obj/structure/desk_bell{
+	pixel_x = 7
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/powered)
+
+(1,1,1) = {"
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+"}
+(2,1,1) = {"
+fC
+fC
+fC
+fC
+fC
+fC
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+fC
+fC
+Vi
+Vi
+Vi
+Vi
+Vi
+fC
+fC
+fC
+fC
+fC
+"}
+(3,1,1) = {"
+fC
+fC
+fC
+Vi
+Vi
+Vi
+Vi
+fC
+fC
+Vi
+fC
+fC
+NR
+Vi
+Vi
+Vi
+Vi
+fC
+Vi
+fC
+Vi
+Vi
+fC
+fC
+fC
+fC
+"}
+(4,1,1) = {"
+fC
+fC
+fC
+Vi
+fC
+fC
+hR
+hR
+hR
+hR
+hR
+hR
+nt
+hR
+Gl
+Gl
+Gl
+Gl
+hR
+hR
+fC
+Vi
+fC
+Vi
+fC
+fC
+"}
+(5,1,1) = {"
+fC
+Vi
+Vi
+Vi
+Vi
+Vi
+hR
+QQ
+sM
+ea
+wT
+uD
+Qc
+Ln
+JG
+JG
+JG
+JG
+wo
+hR
+Vi
+Vi
+Vi
+Vi
+fC
+fC
+"}
+(6,1,1) = {"
+fC
+fC
+fC
+Vi
+fC
+fC
+hR
+Ip
+fF
+fF
+fF
+cZ
+Qc
+EE
+Kl
+EJ
+Kl
+EJ
+rb
+hR
+fC
+fC
+fC
+Vi
+fC
+fC
+"}
+(7,1,1) = {"
+fC
+fC
+fC
+Vi
+fC
+fC
+hR
+Wy
+Fo
+Fo
+Uw
+qD
+Qc
+tb
+Ys
+EJ
+Kl
+EJ
+rb
+hR
+fC
+fC
+fC
+Vi
+fC
+fC
+"}
+(8,1,1) = {"
+fC
+fC
+fC
+Vi
+fC
+hR
+hR
+hY
+hY
+JC
+hY
+hY
+Qc
+hY
+sj
+Kl
+Kl
+Kl
+Ne
+hR
+dB
+Vi
+Vi
+Vi
+Vi
+Vi
+"}
+(9,1,1) = {"
+Vi
+gX
+Vi
+Vi
+Vi
+hR
+Wl
+ij
+nY
+ij
+LV
+sw
+Mr
+hY
+Ts
+EJ
+Kl
+EJ
+OF
+zS
+hR
+fC
+fC
+Vi
+fC
+Vi
+"}
+(10,1,1) = {"
+fC
+Vi
+fC
+fC
+fC
+hR
+Xj
+Ob
+Ob
+Ob
+Ob
+Ob
+vf
+JC
+gm
+EJ
+Kl
+EJ
+Kl
+Yh
+Gl
+fC
+fC
+Vi
+fC
+Vi
+"}
+(11,1,1) = {"
+fC
+Vi
+fC
+fC
+fC
+hR
+sD
+Ob
+Oy
+ti
+Ra
+UE
+vf
+Mh
+gm
+EJ
+Kl
+EJ
+Kl
+ht
+Gl
+fC
+fC
+Vi
+fC
+Vi
+"}
+(12,1,1) = {"
+fC
+Vi
+Vi
+fC
+fC
+hR
+fj
+Ob
+Ue
+zC
+Ob
+Nd
+vf
+Gl
+gm
+Kl
+Kl
+Kl
+Kl
+ex
+Gl
+fC
+fC
+Vi
+fC
+Vi
+"}
+(13,1,1) = {"
+fC
+fC
+Vi
+fC
+fC
+hR
+vP
+Ob
+UE
+UE
+Ra
+UE
+vf
+YH
+gm
+EJ
+Kl
+EJ
+Kl
+pe
+Gl
+fC
+fC
+Vi
+fC
+Vi
+"}
+(14,1,1) = {"
+fC
+fC
+Vi
+fC
+fC
+hR
+pK
+Ob
+Ob
+Ob
+Ob
+Ob
+vf
+Gl
+gm
+EJ
+Kl
+EJ
+Kl
+At
+Gl
+fC
+fC
+Vi
+fC
+Vi
+"}
+(15,1,1) = {"
+fC
+Vi
+Vi
+Vi
+Vi
+hR
+qQ
+vf
+vf
+vf
+vf
+vf
+bv
+hY
+dT
+Fn
+Fn
+Fn
+Fn
+tK
+hR
+Vi
+Vi
+Vi
+Vi
+Vi
+"}
+(16,1,1) = {"
+fC
+fC
+Vi
+fC
+fC
+hR
+hR
+JC
+Gl
+yz
+Gg
+aY
+Xk
+hY
+Gl
+Gl
+Gl
+Gl
+Gl
+hR
+hR
+fC
+fC
+Vi
+fC
+fC
+"}
+(17,1,1) = {"
+fC
+fC
+Vi
+fC
+fC
+Vi
+hR
+GV
+mE
+bX
+bX
+bX
+WT
+hY
+DD
+CZ
+nX
+iZ
+XO
+hR
+Vi
+fC
+Vi
+Vi
+fC
+fC
+"}
+(18,1,1) = {"
+fC
+Vi
+Vi
+Vi
+Vi
+Jj
+so
+fk
+cx
+cx
+cx
+cx
+Cf
+hU
+dm
+ej
+ML
+HF
+tk
+hR
+Vi
+fC
+Vi
+fC
+fC
+fC
+"}
+(19,1,1) = {"
+fC
+fC
+Vi
+fC
+Vi
+fC
+hR
+eD
+zv
+Rs
+yT
+zv
+Mw
+hR
+Gl
+Gl
+IQ
+Gl
+Gl
+hR
+Vi
+Vi
+Vi
+fC
+fC
+fC
+"}
+(20,1,1) = {"
+fC
+fC
+fC
+fC
+Vi
+fC
+hR
+Gl
+Gl
+Gl
+Gl
+Gl
+Gl
+hR
+fC
+Gl
+BH
+Gl
+fC
+fC
+Vi
+fC
+Vi
+Vi
+Vi
+fC
+"}
+(21,1,1) = {"
+fC
+fC
+fC
+fC
+Vi
+fC
+Vi
+fC
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+Gl
+oP
+Gl
+fC
+fC
+Vi
+fC
+fC
+Vi
+fC
+fC
+"}
+(22,1,1) = {"
+fC
+fC
+fC
+fC
+Vi
+fC
+Vi
+fC
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+fC
+iy
+fC
+fC
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+"}
+(23,1,1) = {"
+fC
+fC
+fC
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+"}
+(24,1,1) = {"
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+"}
+(25,1,1) = {"
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+"}
+(26,1,1) = {"
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+fC
+Vi
+fC
+fC
+"}
