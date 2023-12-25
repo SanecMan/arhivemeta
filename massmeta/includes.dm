@@ -75,3 +75,4 @@
 #include "features\hardsuits\code\hardsuit.dm"
 #include "features\hardsuits\code\helmet.dm"
 #include "features\hardsuits\code\space_suit_beacon.dm"
+#include "features\miami\code\miami.dm"
