@@ -124,6 +124,7 @@
 /atom/movable/screen/alert/status_effect/miami
 	name = "THE KILLING NEVER STOPS"
 	desc = "Do you like hurting other people?"
+	icon = 'massmeta/features/miami/icons/screen_alert.dmi'
 	icon_state = "miami"
 
 /datum/uplink_item/bundles_tc/miami
@@ -136,6 +137,7 @@
 /obj/item/clothing/gloves/miami
 	name = "old bloody rags"
 	desc = "Those rags haven't seen use in eons, they were used tor terrible back then."
+	icon = 'massmeta/features/miami/icons/gloves.dmi'
 	icon_state = "miami"
 	attack_verb_continuous = list("butchers")
 	attack_verb_simple = list("butcher")
@@ -260,6 +262,7 @@
 
 /obj/item/clothing/mask/gas/miami/classic
 	name = "The Classic"
+	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_classic"
 	alert_type = /atom/movable/screen/alert/classic
 	var/previous_tick_bonus = 0
@@ -292,6 +295,7 @@
 
 /obj/item/clothing/mask/gas/miami/predator
 	name = "The Predator"
+	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_predator"
 	alert_type = /atom/movable/screen/alert/predator
 	var/list/blood_tracker_dictionary = list()
@@ -379,6 +383,7 @@
 
 /obj/item/clothing/mask/gas/miami/butcher
 	name = "The Butcher"
+	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_butcher"
 	alert_type = /atom/movable/screen/alert/butcher
 
@@ -399,21 +404,25 @@
 /atom/movable/screen/alert/classic
 	name = "The Classic"
 	desc = "You gain up to 40% brute resist based on the amount of living people around you."
+	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_classic"
 
 /atom/movable/screen/alert/predator
 	name = "The Predator"
 	desc = "You gain the ability sense blood and gore, tracking people who are on low health or are bleeding."
+	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_predator"
 
 /atom/movable/screen/alert/butcher
 	name = "The Butcher"
 	desc = "You gain from 10% to 35% block chance depending on the amount of blood and gore around you."
+	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_butcher"
 
 /obj/item/storage/backpack/satchel/miami
 	name = "Retro satchel"
 	desc = "An oldschool satchel, made for it's job."
+	icon = 'massmeta/features/miami/icons/backback.dmi'
 	icon_state = "miami"
 	var/mob/living/carbon/human/local_wearer
 
@@ -454,6 +463,7 @@
 /atom/movable/screen/alert/miami_satchel
 	name = "Satchel"
 	desc = "You gain damage slowdown immunity while wearing this."
+	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_satchel"
 
 /obj/item/storage/backpack/satchel/miami/prefilled/PopulateContents()
@@ -467,6 +477,7 @@
 /obj/item/miami_whoami
 	name = "Shifting Covers"
 	desc = "Who am I today? Use in hand to choose mask."
+	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_whoami"
 
 /obj/item/miami_whoami/attack_self(mob/user, modifiers)
@@ -482,18 +493,12 @@
 	qdel(src)
 
 /obj/item/clothing/mask/gas/owl_mask
-	name = "owl mask"
-	desc = "Twoooo!"
-	icon_state = "owl"
-	inhand_icon_state = "owl_mask"
-	clothing_flags = MASKINTERNALS
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH | PEPPERPROOF
-	resistance_flags = FLAMMABLE
-	has_fov = FALSE
 
 /obj/item/clothing/mask/gas/miami_classic
 	name = "The Classic"
 	desc ="You stare into the eyes in the mask, and you can feel something staring back at you..."
+	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_classic"
 	inhand_icon_state = "owl_mask"
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH | PEPPERPROOF
@@ -503,6 +508,7 @@
 /obj/item/clothing/mask/gas/miami_predator
 	name = "The Predator"
 	desc ="You stare into the eyes in the mask, and you can feel something staring back at you..."
+	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_predator"
 	inhand_icon_state = "owl_mask"
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH | PEPPERPROOF
@@ -512,6 +518,7 @@
 /obj/item/clothing/mask/gas/miami_butcher
 	name = "The Butcher"
 	desc ="You stare into the eyes in the mask, and you can feel something staring back at you..."
+	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_butcher"
 	inhand_icon_state = "owl_mask"
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH | PEPPERPROOF
