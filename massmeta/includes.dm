@@ -69,6 +69,7 @@
 #include "code\modules\projectiles\ammunition\ballistic\rifle.dm"
 #include "code\modules\projectiles\projectile\bullets\rifle.dm"
 #include "code\modules\map_vote.dm"
+#include "code\modules\event\holiday\xmas.dm"
 //features
 #include "features\additional_circuit\includes.dm"
 #include "features\hardsuits\code\_jetpack.dm"
