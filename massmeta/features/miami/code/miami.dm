@@ -102,7 +102,7 @@
 
 	if(!living_target.IsKnockdown())
 		return
-	INVOKE_ASYNC(src, PROC_REF(continue_with_stomping, weapon, target, click_parameters))
+	INVOKE_ASYNC(src, PROC_REF(continue_with_stomping), weapon, target, click_parameters)
 	living_target.AdjustKnockdown(1 SECONDS)
 
 /datum/status_effect/miami/proc/continue_with_stomping(obj/item/weapon, atom/target, click_parameters)
@@ -138,6 +138,7 @@
 	name = "old bloody rags"
 	desc = "Those rags haven't seen use in eons, they were used tor terrible back then."
 	icon = 'massmeta/features/miami/icons/gloves.dmi'
+	worn_icon = 'massmeta/features/miami/icons/hands.dmi'
 	icon_state = "miami"
 	attack_verb_continuous = list("butchers")
 	attack_verb_simple = list("butcher")
@@ -201,6 +202,7 @@
 	desc = "The telephone rings, will you pick it up?"
 	button_icon = 'massmeta/features/miami/icons/actions_items.dmi'
 	button_icon_state = "playback"
+	background_icon = 'massmeta/features/miami/icons/backgrounds.dmi'
 	background_icon_state = "miami"
 	cooldown_time = 30 SECONDS
 
@@ -211,6 +213,7 @@
 	if(!istype(miami))
 		return
 	living_owner.apply_status_effect(/datum/status_effect/miami)
+	playsound(owner, 'massmeta/features/miami/sounds/Rewind_effect.mp3', 50, FALSE)
 	miami.playback = TRUE
 	miami.update_icon()
 	ADD_TRAIT(miami, TRAIT_NODROP, type)
@@ -222,6 +225,7 @@
 	name ="Generic Miami Mask"
 	desc ="You stare into the eyes in the mask, and you can feel something staring back at you..."
 	resistance_flags = INDESTRUCTIBLE
+	flags_inv = HIDEHAIR
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH | PEPPERPROOF
 
 	var/mob/living/carbon/human/local_wearer
@@ -264,6 +268,8 @@
 	name = "The Classic"
 	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_classic"
+	worn_icon = 'massmeta/features/miami/icons/mask.dmi'
+	worn_icon_state = "miami_classic"
 	alert_type = /atom/movable/screen/alert/classic
 	var/previous_tick_bonus = 0
 	var/max_brute_resist = 0.4
@@ -297,6 +303,8 @@
 	name = "The Predator"
 	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_predator"
+	worn_icon = 'massmeta/features/miami/icons/mask.dmi'
+	worn_icon_state = "miami_predator"
 	alert_type = /atom/movable/screen/alert/predator
 	var/list/blood_tracker_dictionary = list()
 	var/atom/movable/screen/fullscreen/blood_tracker/tracker
@@ -385,6 +393,8 @@
 	name = "The Butcher"
 	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_butcher"
+	worn_icon = 'massmeta/features/miami/icons/mask.dmi'
+	worn_icon_state = "miami_butcher"
 	alert_type = /atom/movable/screen/alert/butcher
 
 /obj/item/clothing/mask/gas/miami/butcher/on_killing_start()
@@ -404,26 +414,27 @@
 /atom/movable/screen/alert/classic
 	name = "The Classic"
 	desc = "You gain up to 40% brute resist based on the amount of living people around you."
-	icon = 'massmeta/features/miami/icons/masks.dmi'
+	icon = 'massmeta/features/miami/icons/screen_alert.dmi'
 	icon_state = "miami_classic"
 
 /atom/movable/screen/alert/predator
 	name = "The Predator"
 	desc = "You gain the ability sense blood and gore, tracking people who are on low health or are bleeding."
-	icon = 'massmeta/features/miami/icons/masks.dmi'
+	icon = 'massmeta/features/miami/icons/screen_alert.dmi'
 	icon_state = "miami_predator"
 
 /atom/movable/screen/alert/butcher
 	name = "The Butcher"
 	desc = "You gain from 10% to 35% block chance depending on the amount of blood and gore around you."
-	icon = 'massmeta/features/miami/icons/masks.dmi'
+	icon = 'massmeta/features/miami/icons/screen_alert.dmi'
 	icon_state = "miami_butcher"
 
 /obj/item/storage/backpack/satchel/miami
 	name = "Retro satchel"
 	desc = "An oldschool satchel, made for it's job."
-	icon = 'massmeta/features/miami/icons/backback.dmi'
+	icon = 'massmeta/features/miami/icons/storage.dmi'
 	icon_state = "miami"
+	worn_icon = 'massmeta/features/miami/icons/back.dmi'
 	var/mob/living/carbon/human/local_wearer
 
 /obj/item/storage/backpack/satchel/miami/equipped(mob/M, slot)
@@ -463,7 +474,7 @@
 /atom/movable/screen/alert/miami_satchel
 	name = "Satchel"
 	desc = "You gain damage slowdown immunity while wearing this."
-	icon = 'massmeta/features/miami/icons/masks.dmi'
+	icon = 'massmeta/features/miami/icons/screen_alert.dmi'
 	icon_state = "miami_satchel"
 
 /obj/item/storage/backpack/satchel/miami/prefilled/PopulateContents()
@@ -497,30 +508,39 @@
 
 /obj/item/clothing/mask/gas/miami_classic
 	name = "The Classic"
-	desc ="You stare into the eyes in the mask, and you can feel something staring back at you..."
+	desc = "You stare into the eyes in the mask, and you can feel something staring back at you..."
 	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_classic"
+	worn_icon = 'massmeta/features/miami/icons/mask.dmi'
+	worn_icon_state = "miami_classic"
 	inhand_icon_state = "owl_mask"
+	flags_inv = HIDEHAIR
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH | PEPPERPROOF
 	resistance_flags = FLAMMABLE
 	has_fov = FALSE
 
 /obj/item/clothing/mask/gas/miami_predator
 	name = "The Predator"
-	desc ="You stare into the eyes in the mask, and you can feel something staring back at you..."
+	desc = "You stare into the eyes in the mask, and you can feel something staring back at you..."
 	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_predator"
+	worn_icon = 'massmeta/features/miami/icons/mask.dmi'
+	worn_icon_state = "miami_predator"
 	inhand_icon_state = "owl_mask"
+	flags_inv = HIDEHAIR
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH | PEPPERPROOF
 	resistance_flags = FLAMMABLE
 	has_fov = FALSE
 
 /obj/item/clothing/mask/gas/miami_butcher
 	name = "The Butcher"
-	desc ="You stare into the eyes in the mask, and you can feel something staring back at you..."
+	desc = "You stare into the eyes in the mask, and you can feel something staring back at you..."
 	icon = 'massmeta/features/miami/icons/masks.dmi'
 	icon_state = "miami_butcher"
+	worn_icon = 'massmeta/features/miami/icons/mask.dmi'
+	worn_icon_state = "miami_predator"
 	inhand_icon_state = "owl_mask"
+	flags_inv = HIDEHAIR
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH | PEPPERPROOF
 	resistance_flags = FLAMMABLE
 	has_fov = FALSE

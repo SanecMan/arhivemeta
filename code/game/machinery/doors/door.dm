@@ -240,6 +240,7 @@
 		if(!density || (I.w_class < WEIGHT_CLASS_NORMAL && !LAZYLEN(I.GetAccess())))
 			return
 		if(check_access(I))
+			SEND_SIGNAL(AM,COMSIG_LIVING_INTERACTED_WITH_DOOR,src,DOOR_OPEN)
 			open()
 		else
 			do_animate("deny")
@@ -295,8 +296,10 @@
 		return
 	if(access_bypass || (requiresID() && allowed(user)))
 		if(density)
+			SEND_SIGNAL(user, COMSIG_LIVING_INTERACTED_WITH_DOOR, src, DOOR_OPEN)	// MASSMETA EDIT
 			open()
 		else
+			SEND_SIGNAL(user, COMSIG_LIVING_INTERACTED_WITH_DOOR, src, DOOR_OPEN)	// MASSMETA EDIT
 			close()
 		return TRUE
 	if(density)
