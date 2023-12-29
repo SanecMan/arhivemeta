@@ -206,7 +206,7 @@
 	background_icon_state = "miami"
 	cooldown_time = 30 SECONDS
 
-/datum/action/cooldown/rewind/Trigger(trigger_flags)
+/datum/action/cooldown/rewind/Trigger(trigger_flags, atom/target)
 	. = ..()
 	var/mob/living/living_owner = owner
 	var/obj/item/clothing/gloves/miami/miami = living_owner.get_item_by_slot(ITEM_SLOT_GLOVES)
