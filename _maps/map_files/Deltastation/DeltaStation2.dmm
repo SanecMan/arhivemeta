@@ -21197,9 +21197,7 @@
 /turf/open/floor/iron,
 /area/station/commons/dorms)
 "fjS" = (
-/obj/machinery/portable_atmospherics/canister/nitrous_oxide{
-	valve_open = 1
-	},
+/obj/machinery/atmospherics/miner/n2o,
 /turf/open/floor/engine/n2o,
 /area/station/engineering/atmos)
 "fkd" = (
@@ -40805,7 +40803,7 @@
 /turf/open/floor/iron,
 /area/station/maintenance/department/engine/atmos)
 "kca" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/atmospherics/miner/oxygen,
 /turf/open/floor/engine/o2,
 /area/station/engineering/atmos)
 "kcb" = (
@@ -52679,7 +52677,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "nfd" = (
-/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/machinery/atmospherics/miner/plasma,
 /turf/open/floor/engine/plasma,
 /area/station/engineering/atmos)
 "nfj" = (
@@ -73281,7 +73279,7 @@
 /turf/closed/wall/r_wall,
 /area/station/maintenance/solars/starboard/fore)
 "smR" = (
-/obj/machinery/portable_atmospherics/canister/nitrogen,
+/obj/machinery/atmospherics/miner/nitrogen,
 /turf/open/floor/engine/n2,
 /area/station/engineering/atmos)
 "smU" = (
@@ -73458,7 +73456,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/hallway)
 "spJ" = (
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/obj/machinery/atmospherics/miner/carbon_dioxide,
 /turf/open/floor/engine/co2,
 /area/station/engineering/atmos)
 "spV" = (
