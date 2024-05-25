@@ -85,3 +85,15 @@
 //buts
 #include "code\modules\surgery\organs\internal\butts\butts.dm"
 #include "code\modules\surgery\organs\internal\butts\butts_init.dm"
+//vulps
+#include "features\vulpochki\language.dm"
+#include "features\vulpochki\dna.dm"
+#include "features\vulpochki\carbon.dm"
+#include "features\vulpochki\human.dm"
+#include "features\vulpochki\vulpkanin_external.dm"
+#include "features\vulpochki\vulpkanin_internal.dm"
+#include "features\vulpochki\sprite_accessories\vulpkanin.dm"
+#include "features\vulpochki\vulpkanin_features.dm"
+#include "features\vulpochki\bodyparts.dm"
+#include "features\vulpochki\vulpkanin.dm"
+#include "features\vulpochki\sprite_accessories\hair.dm"
