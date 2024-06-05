@@ -703,11 +703,13 @@ GLOBAL_LIST_EMPTY(features_by_species)
 					switch(accessory.color_src)
 						if(MUTANT_COLOR)
 							accessory_overlay.color = fixed_mut_color || source.dna.features["mcolor"]
-						// Edit START (secondary color)
-						if(MUTANT_COLOR_SECONDARY) // MASSMETA EDIT
+
+						// MASSMETA ADIDITION (secondary color for liz)
+						if(MUTANT_COLOR_SECONDARY)
 							if(fixed_mut_color)
 								accessory_overlay.color = fixed_mut_color || source.dna.features["mcolor_secondary"]
-						// Edit END
+						// EDIT END
+
 						if(HAIR_COLOR)
 							accessory_overlay.color = get_fixed_hair_color(source) || source.hair_color
 						if(FACIAL_HAIR_COLOR)
@@ -718,12 +720,10 @@ GLOBAL_LIST_EMPTY(features_by_species)
 					accessory_overlay.color = forced_colour
 			standing += accessory_overlay
 
-			// Edit START (secondary color)
-
-			if(length(accessory.external_slots)) // MASSMETA EDIT
+			// MASSMETA ADDITION (secondary color for liz)
+			if(length(accessory.external_slots))
 				standing += return_accessory_layer(layer, accessory, source, accessory_overlay.color)
-
-			// Edit END
+			// EDIT END
 
 			if(accessory.hasinner)
 				var/mutable_appearance/inner_accessory_overlay = mutable_appearance(accessory.icon, layer = -layer)

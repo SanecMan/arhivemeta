@@ -23,7 +23,7 @@ GLOBAL_LIST_INIT(identity_block_lengths, list(
  */
 GLOBAL_LIST_INIT(features_block_lengths, list(
 		"[DNA_MUTANT_COLOR_BLOCK]" = DNA_BLOCK_SIZE_COLOR,
-		"[DNA_MUTANT_COLOR_SECONDARY_BLOCK]" = DNA_BLOCK_SIZE_COLOR, // MASSMETA EDIT
+		"[DNA_MUTANT_COLOR_SECONDARY_BLOCK]" = DNA_BLOCK_SIZE_COLOR, // MASSMETA ADDITION
 		"[DNA_ETHEREAL_COLOR_BLOCK]" = DNA_BLOCK_SIZE_COLOR,
 	))
 
@@ -209,10 +209,10 @@ GLOBAL_LIST_INIT(total_uf_len_by_block, populate_total_uf_len_by_block())
 	if(features["mcolor"])
 		L[DNA_MUTANT_COLOR_BLOCK] = sanitize_hexcolor(features["mcolor"], include_crunch = FALSE)
 
-	// Add secondary species color
+	// MASSMETA ADDITION (secondary color for liz)
 	if(features["mcolor_secondary"])
-		L[DNA_MUTANT_COLOR_SECONDARY_BLOCK] = sanitize_hexcolor(features["mcolor_secondary"], include_crunch = FALSE) // MASSMETA EDIT
-	// Edit End
+		L[DNA_MUTANT_COLOR_SECONDARY_BLOCK] = sanitize_hexcolor(features["mcolor_secondary"], include_crunch = FALSE)
+	// EDIT END
 
 	if(features["ethcolor"])
 		L[DNA_ETHEREAL_COLOR_BLOCK] = sanitize_hexcolor(features["ethcolor"], include_crunch = FALSE)
@@ -361,10 +361,10 @@ GLOBAL_LIST_INIT(total_uf_len_by_block, populate_total_uf_len_by_block())
 		if(DNA_MUTANT_COLOR_BLOCK)
 			set_uni_feature_block(blocknumber, sanitize_hexcolor(features["mcolor"], include_crunch = FALSE))
 
-		// Add secondary color for species
+		// MASSMETA ADDITOION (secondary color for liz)
 		if(DNA_MUTANT_COLOR_SECONDARY_BLOCK)
-			set_uni_feature_block(blocknumber, sanitize_hexcolor(features["mcolor_secondary"], include_crunch = FALSE)) // MASSMETA EDIT
-		// Edit End
+			set_uni_feature_block(blocknumber, sanitize_hexcolor(features["mcolor_secondary"], include_crunch = FALSE))
+		// EDIT END
 
 		if(DNA_ETHEREAL_COLOR_BLOCK)
 			set_uni_feature_block(blocknumber, sanitize_hexcolor(features["ethcolor"], include_crunch = FALSE))
@@ -484,7 +484,7 @@ GLOBAL_LIST_INIT(total_uf_len_by_block, populate_total_uf_len_by_block())
 			features |= GLOB.species_prototypes[species_type].randomize_features()
 
 		features["mcolor"] = "#[random_color()]"
-		features["mcolor_secondary"] = "#[random_color()]" // MASSMETA EDIT
+		features["mcolor_secondary"] = "#[random_color()]" // MASSMETA ADDITION
 
 	update_dna_identity()
 
@@ -664,10 +664,10 @@ GLOBAL_LIST_INIT(total_uf_len_by_block, populate_total_uf_len_by_block())
 	if(dna.features["mcolor"])
 		dna.features["mcolor"] = sanitize_hexcolor(get_uni_feature_block(features, DNA_MUTANT_COLOR_BLOCK))
 
-	// Add secondary color for species
+	// MASSMETA ADDITION (secondary color for liz)
 	if(dna.features["mcolor_secondary"])
-		dna.features["mcolor_secondary"] = sanitize_hexcolor(get_uni_feature_block(features, DNA_MUTANT_COLOR_SECONDARY_BLOCK)) // MASSMETA EDIT
-	// Edit End
+		dna.features["mcolor_secondary"] = sanitize_hexcolor(get_uni_feature_block(features, DNA_MUTANT_COLOR_SECONDARY_BLOCK))
+	// EDIT END
 
 	if(dna.features["ethcolor"])
 		dna.features["ethcolor"] = sanitize_hexcolor(get_uni_feature_block(features, DNA_ETHEREAL_COLOR_BLOCK))

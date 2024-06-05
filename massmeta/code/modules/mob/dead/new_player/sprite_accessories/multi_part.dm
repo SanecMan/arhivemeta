@@ -7,7 +7,7 @@
 /datum/sprite_accessory/body_markings/cbelly
 	icon = 'massmeta/icons/mob/species/lizard/multipart.dmi'
 	name = "Color Belly"
-	external_slots = list(ORGAN_SLOT_EXTERNAL_TAIL, ORGAN_SLOT_EXTERNAL_SNOUT)
+	external_slots = list(ORGAN_SLOT_EXTERNAL_TAIL)
 	icon_state = "cbelly"
 	gender_specific = 1
 	color_src = MUTANT_COLOR_SECONDARY
