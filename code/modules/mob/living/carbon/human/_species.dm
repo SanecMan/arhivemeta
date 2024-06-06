@@ -706,8 +706,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 
 						// MASSMETA ADIDITION (secondary color for liz)
 						if(MUTANT_COLOR_SECONDARY)
-							if(fixed_mut_color)
-								accessory_overlay.color = fixed_mut_color || source.dna.features["mcolor_secondary"]
+							accessory_overlay.color = fixed_mut_color || source.dna.features["mcolor_secondary"]
 						// EDIT END
 
 						if(HAIR_COLOR)

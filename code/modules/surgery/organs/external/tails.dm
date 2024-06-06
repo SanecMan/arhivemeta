@@ -99,7 +99,7 @@
 	organ_owner.update_body_parts()
 
 	// MASSMETA ADDITION (second color for liz)
-	if(ishuman(owner) && HAS_TRAIT(organ_owner, TRAIT_MUTANT_COLORS))
+	if(ishuman(owner) && HAS_TRAIT(organ_owner, TRAIT_MUTANT_COLORS_SECONDARY))
 		var/mob/living/carbon/human/human = owner
 		human.update_mutant_bodyparts()
 	// EDIT END
@@ -132,7 +132,7 @@
 	organ_owner.update_body_parts()
 
 	// MASSMETA ADDITION (second color for liz)
-	if(ishuman(owner) && HAS_TRAIT(organ_owner, TRAIT_MUTANT_COLORS))
+	if(ishuman(owner) && HAS_TRAIT(organ_owner, TRAIT_MUTANT_COLORS_SECONDARY))
 		var/mob/living/carbon/human/human = owner
 		human.update_mutant_bodyparts()
 	// EDIT END
