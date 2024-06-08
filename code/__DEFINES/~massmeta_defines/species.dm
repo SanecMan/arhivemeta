@@ -12,9 +12,9 @@
 
 #define DNA_MODULAR_BLOCKS_COUNT 6
 
-GLOBAL_LIST_INIT(first_names_female_vulp, world.file2list("strings/names/first_female_vulp.txt"))
-GLOBAL_LIST_INIT(first_names_male_vulp, world.file2list("strings/names/first_male_vulp.txt"))
-GLOBAL_LIST_INIT(last_names_vulp, world.file2list("strings/names/last_vulp.txt"))
+GLOBAL_LIST_INIT(first_names_female_vulp, world.file2list("massmeta/strings/names/first_female_vulp.txt"))
+GLOBAL_LIST_INIT(first_names_male_vulp, world.file2list("massmeta/strings/names/first_male_vulp.txt"))
+GLOBAL_LIST_INIT(last_names_vulp, world.file2list("massmeta/strings/names/last_vulp.txt"))
 
 /datum/controller/subsystem/accessories
 	var/list/vulpkanin_body_markings_list

@@ -106,12 +106,12 @@ export const feature_lizard_tail: FeatureChoiced = {
 
 // MASSMETA EDIT
 // Add Secondary species color
-// export const feature_mcolor_secondary: Feature<string> = {
-//   name: 'Mutant Secondary color',
-//   description:
-//   'Apply only on Colored Belly',
-//   component: FeatureColorInput,
-// };
+export const feature_mcolor_secondary: Feature<string> = {
+  name: 'Mutant Secondary color',
+  description:
+  'Apply only on Colored Belly',
+  component: FeatureColorInput,
+};
 // End Edit
 
 export const feature_mcolor: Feature<string> = {

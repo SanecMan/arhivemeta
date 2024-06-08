@@ -14,6 +14,7 @@
 	mutantheart = /obj/item/organ/internal/heart/vulpkanin
 	mutantlungs = /obj/item/organ/internal/lungs/vulpkanin
 	mutanteyes = /obj/item/organ/internal/eyes/vulpkanin
+	mutantears = /obj/item/organ/internal/ears/vulpkanin
 	mutanttongue = /obj/item/organ/internal/tongue/vulpkanin
 	mutantliver = /obj/item/organ/internal/liver/vulpkanin
 	mutantstomach = /obj/item/organ/internal/stomach/vulpkanin
@@ -48,6 +49,7 @@
 	vulpkanin.set_haircolor("#A26324", update = FALSE) // brown
 	vulpkanin.set_hairstyle("Jagged", update = TRUE)
 	vulpkanin.dna.features["mcolor"] = "#D69E67"
+	vulpkanin.dna.features["mcolor_secondary"] = "#D69E67"
 	vulpkanin.dna.features["vulpkanin_head_accessories"] = "Vulpkanin Earfluff"
 	vulpkanin.set_vulpkanin_head_accessories_color("#FFCBDB", update = FALSE)
 	vulpkanin.update_body(is_creating = TRUE)
@@ -92,6 +94,25 @@
 		Практически все члены кланов отправляют часть заработанных средств своему родному клану. \
 		Что касается беженцев, то они не особо проявляют активность, например, на политическом поприще.",
 	)
+
+/datum/species/vulpkanin/create_pref_unique_perks()
+	var/list/to_add = list()
+
+	to_add += list(
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
+			SPECIES_PERK_ICON = "assistive-listening-systems",
+			SPECIES_PERK_NAME = "Чувствительный слух",
+			SPECIES_PERK_DESC = "Вульпкане лучше слышат, но более чувствительны к громким звукам, например, светошумовым гранатам.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+			SPECIES_PERK_ICON = "fire-alt",
+			SPECIES_PERK_NAME = "Быстрый метаболизм",
+			SPECIES_PERK_DESC = "Вульпкане быстрее тратят полезные вещества и проголадываются",
+		),
+	)
+	return to_add
 
 /datum/species/vulpkanin/handle_mutant_bodyparts(mob/living/carbon/human/source, forced_colour)
 	var/list/bodyparts_to_add = mutant_bodyparts.Copy()
