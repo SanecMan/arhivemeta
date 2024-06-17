@@ -135,6 +135,7 @@
 /obj/item/tank/Destroy()
 	STOP_PROCESSING(SSobj, src)
 	air_contents = null
+//MASSMETA EDIT REMOVAL BEGIN - STR
 	/*QDEL_NULL(tank_assembly)*/
 //MASSMETA EDIT REMOVAL END
 	return ..()
