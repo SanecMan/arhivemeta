@@ -155,7 +155,7 @@
 
 	. += span_notice("It feels [descriptive].")
 
-/obj/item/tank/deconstruct(disassembled = TRUE)
+/obj/item/tank/atom_deconstruct(disassembled = TRUE)
 	var/atom/location = loc
 	if(location)
 		location.assume_air(air_contents)
