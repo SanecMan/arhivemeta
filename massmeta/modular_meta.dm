@@ -36,7 +36,6 @@
 #include "code\game\objects\items\tools\wirecutters.dm"
 #include "code\game\objects\items\tools\wrench.dm"
 #include "code\obj\items\storage\boxes\clothes_boxes.dm"
-#include "code\modules\research.dm"
 #include "code\obj\structures\display_case.dm"
 #include "code\modules\antags\uplink_items.dm"
 #include "code\obj\items\clothing\belt.dm"
