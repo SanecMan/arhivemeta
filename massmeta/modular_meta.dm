@@ -1,15 +1,12 @@
-/*
-*
-* Это основной файл куда будут складываться все наши модульные добавления.
-* Добавлять только:
-*	Модули (.dm файлами)
-* Сам этот файл добавлен в tgstation.dme
-*
-*Все Defines файлы лежат в папке "~meta_defines\", однако там идет переопределение пути для того чтобы не ругались тесты.
-*
-*/
+// Это основной файл куда будут складываться все наши модульные добавления.
+// Добавлять только:
+// Модули (.dm файлами)
+// Сам этот файл добавлен в tgstation.dme
 
-//modular files
+// Все Defines файлы лежат в папке "~meta_defines\", однако там идет переопределение пути для того чтобы не ругались тесты.
+
+// BEGIN_INCLUDE
+//modular files (del comment then done modularization!)
 
 
 //master files (unsorted, TODO: need modularization)
@@ -112,3 +109,4 @@
 
 //smites
 #include "features\smites\testicular_torsion.dm"
+// END_INCLUDE
