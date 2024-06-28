@@ -88,6 +88,7 @@ for code_file in scannable_files:
         dm_path = os.path.basename(code_file)
 
     included = f"#include \"{dm_path}\"" in lines
+    print(f"{included} ({dm_path})")
 
     forbid_include = False
     for forbidable in FORBIDDEN_INCLUDES:
