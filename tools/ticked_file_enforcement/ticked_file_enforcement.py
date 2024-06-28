@@ -67,6 +67,7 @@ with open(file_reference, 'r') as file:
         print(f"Getting module files from:")
         for module_file in lines:
             module_file_path = module_file.replace('\\', '/')
+            module_file_path[10:(len(module_file) - 1]
             print(f"    {module_file} with:")
             with open(module_file_path, 'r') as extra_file:
                 for extra_line in extra_file:
