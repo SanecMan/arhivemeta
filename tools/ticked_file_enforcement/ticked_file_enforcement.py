@@ -56,19 +56,15 @@ with open(file_reference, 'r') as file:
         elif not reading:
             continue
 
+        # MASSMETA EDIT ADDITION START (check modular code folder)
+        if scannable_directory == "massmeta/":
+            line =  line[:10] + "massmeta\\" + line[10:]
+        # MASSMETA EDIT ADDITION END
         lines.append(line)
 
 offset = total - len(lines)
 print(blue(f"Ticked File Enforcement: {offset} lines were ignored in output for [{file_reference}]."))
 fail_no_include = False
-
-# MASSMETA EDIT ADDITION START (check modular code folder)
-if scannable_directory == "massmeta/":
-    print(f"start to convert lines...")
-    for line in lines:
-        line =  line[:10] + "massmeta\\" + line[10:]
-        print(f"{line}")
-# MASSMETA EDIT ADDITION END
 
 scannable_files = []
 for file_extension in file_extensions:
@@ -88,7 +84,6 @@ for code_file in scannable_files:
         dm_path = os.path.basename(code_file)
 
     included = f"#include \"{dm_path}\"" in lines
-    print(f"{included} ({dm_path})")
 
     forbid_include = False
     for forbidable in FORBIDDEN_INCLUDES:
