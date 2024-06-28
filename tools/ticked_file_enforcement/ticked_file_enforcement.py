@@ -66,7 +66,7 @@ fail_no_include = False
 if scannable_directory == "massmeta/":
     print(f"start to convert lines...")
     for line in lines:
-        line =  "massmeta\\" + line
+        line =  line[:10] + "massmeta\\" + line[10:]
         print(f"{line}")
 # MASSMETA EDIT ADDITION END
 

@@ -5,11 +5,12 @@
 
 // Все Defines файлы лежат в папке "~meta_defines\", однако там идет переопределение пути для того чтобы не ругались тесты.
 
-// BEGIN_INCLUDE
+
 //modular files (del comment then done modularization!)
 
 
 //master files (unsorted, TODO: need modularization)
+// BEGIN_INCLUDE
 #include "code\_globalvars\lists\names.dm"
 #include "code\__HELPERS\names.dm"
 #include "interface\interface.dm"
@@ -73,40 +74,26 @@
 #include "code\game\machinery\suit_storage_unit.dm"
 #include "code\modules\map_vote.dm"
 #include "code\modules\hallucination\fake_chat.dm"
-
-//cheburek Car
 #include "code\modules\vehicles\cars\cheburek.dm"
 #include "code\modules\vehicles\vehicle_actions.dm"
 #include "code\game\objects\structures\crates_lockers\crates\large.dm"
 #include "code\modules\cargo\packs\imports.dm"
-
-//features
 #include "features\additional_circuit\includes.dm"
 #include "features\hardsuits\code\_jetpack.dm"
 #include "features\hardsuits\code\armor.dm"
 #include "features\hardsuits\code\hardsuit.dm"
 #include "features\hardsuits\code\helmet.dm"
 #include "features\hardsuits\code\space_suit_beacon.dm"
-
-//buts
 #include "code\modules\surgery\organs\internal\butts\butts.dm"
 #include "code\modules\surgery\organs\internal\butts\butts_init.dm"
-
-//gay removal (6.21 КоАП РФ)
 #include "code\modules\clothing\under\accessories\badges.dm"
-
-//oguzok in kitchen, huh?
 #include "code\modules\clothing\under\undersuit.dm"
 #include "code\modules\clothing\masks\moustache_ru.dm"
-
-//kvass
 #include "code\modules\cargo\exports\large_objects.dm"
 #include "code\modules\cargo\packs\materials.dm"
 #include "code\modules\reagents\chemistry\reagents\drinks\drink_reagents.dm"
 #include "code\modules\reagents\chemistry\reagents\drinks\glass_styles\sodas.dm"
 #include "code\modules\reagents\reagent_containers\cups\soda.dm"
 #include "code\modules\reagents\reagent_dispenser.dm"
-
-//smites
 #include "features\smites\testicular_torsion.dm"
 // END_INCLUDE
