@@ -83,7 +83,7 @@
 #include "code\game\objects\structures\crates_lockers\crates\large.dm"
 #include "code\modules\cargo\packs\imports.dm"
 
-//featuresw
+//features
 #include "features\hardsuits\code\_jetpack.dm"
 #include "features\hardsuits\code\armor.dm"
 #include "features\hardsuits\code\hardsuit.dm"
