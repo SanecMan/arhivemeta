@@ -61,6 +61,18 @@ with open(file_reference, 'r') as file:
             line =  line[:10] + "massmeta\\" + line[10:]
         # MASSMETA EDIT ADDITION END
         lines.append(line)
+    # MASSMETA EDIT ADDITION START (check modular code folder)
+    # also add each modules files to futher check
+    print(f"Getting module files from:")
+    if scannable_directory == "massmeta/":
+        for module_file in lines:
+            print(f"    {module_file} with:")
+            with open(module_file.replace('/', '\\'), 'r') as extra_file:
+                for extra_line in extra_file:
+                    # all include files in each module must be "includes.dm" = 11 length
+                    lines.append(module_file[:(len(module_file) - 11)] + extra_line[10:])
+                    print(f"        {module_file[:(len(module_file) - 11)] + extra_line[10:]}")
+    # MASSMETA EDIT ADDITION END
 
 offset = total - len(lines)
 print(blue(f"Ticked File Enforcement: {offset} lines were ignored in output for [{file_reference}]."))
