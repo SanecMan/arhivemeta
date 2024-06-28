@@ -1,5 +1,5 @@
 {
-	"file": "modular_meta.dm",
+	"file": "massmeta/modular_meta.dm",
 	"scannable_directory": "massmeta/",
 	"subdirectories": true,
 	"excluded_files": [],
