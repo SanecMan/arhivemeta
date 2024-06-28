@@ -63,8 +63,8 @@ with open(file_reference, 'r') as file:
         lines.append(line)
     # MASSMETA EDIT ADDITION START (check modular code folder)
     # also add each modules files to futher check
-    print(f"Getting module files from:")
     if scannable_directory == "massmeta/":
+        print(f"Getting module files from:")
         for module_file in lines:
             module_file_path = module_file.replace('/', '\\')
             print(f"    {module_file} with:")
