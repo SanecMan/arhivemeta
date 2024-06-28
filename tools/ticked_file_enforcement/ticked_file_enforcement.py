@@ -64,8 +64,10 @@ fail_no_include = False
 
 # MASSMETA EDIT ADDITION START (check modular code folder)
 if scannable_directory == "massmeta/":
+    print(f"start to convert lines...")
     for line in lines:
         line =  "massmeta\\" + line
+        print(f"{line}")
 # MASSMETA EDIT ADDITION END
 
 scannable_files = []
