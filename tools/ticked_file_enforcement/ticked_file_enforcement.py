@@ -62,10 +62,10 @@ offset = total - len(lines)
 print(blue(f"Ticked File Enforcement: {offset} lines were ignored in output for [{file_reference}]."))
 fail_no_include = False
 
-# MASSMETA EDIT ADDITION START (extra check for modular code)
-if scannable_directory == "massmeta\\":
+# MASSMETA EDIT ADDITION START (check modular code folder)
+if scannable_directory == "massmeta/":
     for line in lines:
-        line = scannable_directory + line
+        line =  "massmeta\\" + line
 # MASSMETA EDIT ADDITION END
 
 scannable_files = []
