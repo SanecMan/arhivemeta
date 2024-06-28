@@ -63,7 +63,7 @@ print(blue(f"Ticked File Enforcement: {offset} lines were ignored in output for 
 fail_no_include = False
 
 # MASSMETA EDIT ADDITION START (extra check for modular code)
-if scannable_directory == "massmeta\\"
+if scannable_directory == "massmeta\\":
     for line in lines
         line = scannable_directory + line
 # MASSMETA EDIT ADDITION END
