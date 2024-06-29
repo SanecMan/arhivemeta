@@ -31,7 +31,7 @@
 
 /mob/living/simple_animal/hostile/Initialize(mapload)
 	. = ..()
-	add_traits(TRAIT_VENTCRAWLER_ALWAYS)
+	add_traits(list(TRAIT_VENTCRAWLER_ALWAYS))
 
 /mob/living/simple_animal/hostile/vampire_bat/death()
 	if(isliving(controller))
