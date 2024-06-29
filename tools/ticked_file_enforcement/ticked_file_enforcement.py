@@ -69,7 +69,7 @@ with open(file_reference, 'r') as file:
         print(blue(f"Getting all module files in {scannable_directory}..."))
         for module_file in lines:
             module_file_path = module_file.replace('\\', '/')
-            module_file_path[10:(len(module_file) - 1]
+            module_file_path[10:(len(module_file) - 1)]
             print(f"    {module_file} with in it:")
             if module_file[(len(module_file) - 11):len(module_file)] != "includes.dm":
                 post_error(f"{module_file} must be named \"includes.dm\"")
