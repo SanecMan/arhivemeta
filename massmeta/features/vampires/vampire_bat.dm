@@ -29,6 +29,10 @@
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	minbodytemp = 0
 
+/mob/living/simple_animal/hostile/Initialize(mapload)
+	. = ..()
+	add_traits(TRAIT_VENTCRAWLER_ALWAYS)
+
 /mob/living/simple_animal/hostile/vampire_bat/death()
 	if(isliving(controller))
 		controller.forceMove(loc)
