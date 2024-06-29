@@ -71,7 +71,7 @@ with open(file_reference, 'r') as file:
             module_file_path = module_file.replace('\\', '/')
             module_file_path[10:(len(module_file) - 1]
             print(f"    {module_file} with in it:")
-            if module_file[(len(module_file) - 11):(len(module_file)] != "includes.dm":
+            if module_file[(len(module_file) - 11):len(module_file)] != "includes.dm":
                 post_error(f"{module_file} must be named \"includes.dm\"")
                 fail_no_include_modular = True
             else
