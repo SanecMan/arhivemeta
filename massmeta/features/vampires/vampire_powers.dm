@@ -56,7 +56,7 @@
 	desc= "Flush your system with some spare blood to restore stamina over time."
 	button_icon_state = "rejuv"
 	button_icon = 'massmeta/icons/vampires/vampire.dmi'
-	background_icon_state = "bg_vampire"
+	// background_icon_state = "bg_vampire"
 
 	school = SCHOOL_RESTORATION
 
@@ -90,7 +90,7 @@
 	desc = "Paralyze your target with fear."
 	ranged_mousepointer = 'massmeta/icons/vampires/gaze_target.dmi'
 	button_icon = 'massmeta/icons/vampires/vampire.dmi'
-	background_icon_state = "bg_vampire"
+	// background_icon_state = "bg_vampire"
 	button_icon_state = "gaze"
 
 	school = SCHOOL_SANGUINE
@@ -151,7 +151,7 @@
 	button_icon_state = "hypnotize"
 	ranged_mousepointer = 'massmeta/icons/vampires/hypnotize_target.dmi'
 	button_icon = 'massmeta/icons/vampires/vampire.dmi'
-	background_icon_state = "bg_vampire"
+	// background_icon_state = "bg_vampire"
 
 	school = SCHOOL_SANGUINE
 
@@ -216,7 +216,7 @@
 	gain_desc = "You have gained the Cloak of Darkness ability which when toggled makes you near invisible in the shroud of darkness."
 	button_icon_state = "cloak"
 	button_icon = 'massmeta/icons/vampires/vampire.dmi'
-	background_icon_state = "bg_vampire"
+	// background_icon_state = "bg_vampire"
 
 	school = SCHOOL_CONJURATION
 
@@ -249,7 +249,7 @@
 	desc = "Revives you, provided you are not in the chapel!"
 	button_icon = 'massmeta/icons/vampires/vampire.dmi'
 	button_icon_state = "coffin"
-	background_icon_state = "bg_vampire"
+	// background_icon_state = "bg_vampire"
 
 	school = SCHOOL_SANGUINE
 
@@ -311,7 +311,7 @@
 	gain_desc = "You have gained the Chiropteran Screech ability which stuns anything with ears in a large radius and shatters glass in the process."
 	button_icon_state = "reeee"
 	button_icon = 'massmeta/icons/vampires/vampire.dmi'
-	background_icon_state = "bg_vampire"
+	// background_icon_state = "bg_vampire"
 
 	school = SCHOOL_SANGUINE
 
@@ -356,7 +356,7 @@
 	gain_desc = "You have gained the Summon Bats ability."
 	button_icon_state = "bats"
 	button_icon = 'massmeta/icons/vampires/vampire.dmi'
-	background_icon_state = "bg_vampire"
+	// background_icon_state = "bg_vampire"
 
 	school = SCHOOL_CONJURATION
 
@@ -385,7 +385,7 @@
 /datum/action/cooldown/spell/jaunt/ethereal_jaunt/mistform
 	name = "Mist Form (30)"
 	gain_desc = "You have gained the Mist Form ability which allows you to take on the form of mist for a short period and pass over any obstacle in your path."
-	background_icon_state = "bg_vampire"
+	// background_icon_state = "bg_vampire"
 
 	resource_costs = list(ANTAG_RESOURCE_VAMPIRE = 30)
 	vamp_req = TRUE
@@ -395,7 +395,7 @@
 	desc = "You drain a victim's blood, and fill them with new blood, blessed by Lilith, turning them into a new vampire."
 	gain_desc = "You have gained the ability to force someone, given time, to become a vampire."
 	button_icon = 'massmeta/icons/vampires/vampire.dmi'
-	background_icon_state = "bg_vampire"
+	// background_icon_state = "bg_vampire"
 	button_icon_state = "oath"
 	ranged_mousepointer = 'massmeta/icons/vampires/bite_target.dmi' //big win
 
@@ -460,7 +460,7 @@
 	gain_desc = "Now that you have reached full power, you can now pull a vampiric coat out of thin air!"
 	button_icon = 'massmeta/icons/vampires/vampire.dmi'
 	button_icon_state = "coat"
-	background_icon_state = "bg_vampire"
+	// background_icon_state = "bg_vampire"
 
 	school = SCHOOL_CONJURATION
 
@@ -487,7 +487,7 @@
 	desc = "Transform into a bat!"
 	button_icon_state = "bat"
 	button_icon = 'massmeta/icons/vampires/vampire.dmi'
-	background_icon_state = "bg_vampire"
+	// background_icon_state = "bg_vampire"
 
 	school = SCHOOL_TRANSMUTATION
 
