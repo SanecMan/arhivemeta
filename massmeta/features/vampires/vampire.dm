@@ -282,7 +282,7 @@
 		C.adjustToxLoss(-4, TRUE, TRUE)
 		C.adjustOxyLoss(-4)
 		return
-	if(!get_ability(/datum/vampire_passive/full) && istype(get_area(C.loc), /area/station/service/chapel/))
+	if(!get_ability(/datum/vampire_passive/full) && istype(get_area(C.loc), /area/station/service/chapel))
 		vamp_burn()
 	if(isspaceturf(C.loc))
 		check_sun()
