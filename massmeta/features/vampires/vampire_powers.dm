@@ -85,7 +85,7 @@
 		user.AdjustAllImmobility(-1 SECONDS)
 	addtimer(CALLBACK(src, PROC_REF(heal), user, iterations + 1), 1 SECONDS)
 
-/datum/action/cooldown/spell/pointed/gaze
+/datum/action/cooldown/spell/pointed/
 	name = "Vampiric Gaze"
 	desc = "Paralyze your target with fear."
 	ranged_mousepointer = 'massmeta/icons/vampires/gaze_target.dmi'
@@ -301,7 +301,7 @@
 		carbon_user.visible_message(span_warning("Shadowy matter takes the place of [user]'s missing limbs as they reform!"))
 		carbon_user.regenerate_limbs()
 		carbon_user.regenerate_organs()
-	carbon_user.revive()
+	carbon_user.revive(HEAL_ALL)
 	carbon_user.visible_message(span_warning("[user] reanimates from death!"), span_notice("We get back up."))
 
 
