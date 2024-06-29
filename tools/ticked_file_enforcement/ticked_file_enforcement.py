@@ -57,6 +57,7 @@ with open(file_reference, 'r') as file:
             continue
 
         # MASSMETA EDIT ADDITION START (check modular code folder)
+        # need to make full path
         if scannable_directory == "massmeta/":
             line =  line[:10] + "massmeta\\" + line[10:]
         # MASSMETA EDIT ADDITION END
@@ -64,16 +65,22 @@ with open(file_reference, 'r') as file:
     # MASSMETA EDIT ADDITION START (check modular code folder)
     # also add each modules files to futher check
     if scannable_directory == "massmeta/":
-        print(f"Getting module files from:")
+        fail_no_include_modular = False
+        print(blue(f"Getting all module files in {scannable_directory}..."))
         for module_file in lines:
             module_file_path = module_file.replace('\\', '/')
             module_file_path[10:(len(module_file) - 1]
-            print(f"    {module_file} with:")
-            with open(module_file_path, 'r') as extra_file:
-                for extra_line in extra_file:
-                    # all include files in each module must be "includes.dm" = 11 length
-                    lines.append(module_file[:(len(module_file) - 11)] + extra_line[10:])
-                    print(f"        {module_file[:(len(module_file) - 11)] + extra_line[10:]}")
+            print(f"    {module_file} with in it:")
+            if module_file[(len(module_file) - 11):(len(module_file)] != "includes.dm":
+                post_error(f"{module_file} must be named \"includes.dm\"")
+                fail_no_include_modular = True
+            else
+                with open(module_file_path, 'r') as extra_file:
+                    for extra_line in extra_file:
+                        lines.append(module_file[:(len(module_file) - 11)] + extra_line[10:])
+                        print(f"        {module_file[:(len(module_file) - 11)] + extra_line[10:]}")
+        if fail_no_include_modular:
+            sys.exit(1)
     # MASSMETA EDIT ADDITION END
 
 offset = total - len(lines)
