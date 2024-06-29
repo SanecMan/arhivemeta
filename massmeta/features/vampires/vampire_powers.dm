@@ -85,7 +85,7 @@
 		user.AdjustAllImmobility(-1 SECONDS)
 	addtimer(CALLBACK(src, PROC_REF(heal), user, iterations + 1), 1 SECONDS)
 
-/datum/action/cooldown/spell/pointed/
+/datum/action/cooldown/spell/pointed/gaze
 	name = "Vampiric Gaze"
 	desc = "Paralyze your target with fear."
 	ranged_mousepointer = 'massmeta/icons/vampires/gaze_target.dmi'
