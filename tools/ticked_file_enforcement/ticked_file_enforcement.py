@@ -58,13 +58,13 @@ with open(file_reference, 'r') as file:
 
         # MASSMETA EDIT ADDITION START (check modular code folder)
         # need to make full path
-        if scannable_directory == "massmeta/":
+        if scannable_directory == "massmeta/features/":
             line =  line[:10] + "massmeta\\" + line[10:]
         # MASSMETA EDIT ADDITION END
         lines.append(line)
 
 # MASSMETA EDIT ADDITION START (check modular code folder)
-if scannable_directory == "massmeta/":
+if scannable_directory == "massmeta/features/":
     extra_lines = []
     fail_no_include_modular = False
     print(blue(f"Scanning Modular Code... Checking files in [{scannable_directory}]"))
@@ -88,7 +88,7 @@ if scannable_directory == "massmeta/":
                 extra_line = module_file[:-12] + extra_line[10:]
                 extra_lines.append(extra_line)
                 extra_line.replace('\\', '/')
-                print(f"        {extra_line[10:-1]}")
+                print(f"        [{extra_line[10:-1]}]")
 
     if fail_no_include_modular:
         post_error(f"Modular Ticked File Enforcement has failed!")

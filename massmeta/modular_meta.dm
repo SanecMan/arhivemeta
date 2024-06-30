@@ -9,6 +9,7 @@
 // Modular files (covered with tests)
 // BEGIN_INCLUDE
 #include "features\additional_circuit\includes.dm"
+#include "features\hardsuits\includes.dm"
 // END_INCLUDE
 
 
@@ -82,13 +83,6 @@
 #include "code\modules\vehicles\vehicle_actions.dm"
 #include "code\game\objects\structures\crates_lockers\crates\large.dm"
 #include "code\modules\cargo\packs\imports.dm"
-
-//features
-#include "features\hardsuits\code\_jetpack.dm"
-#include "features\hardsuits\code\armor.dm"
-#include "features\hardsuits\code\hardsuit.dm"
-#include "features\hardsuits\code\helmet.dm"
-#include "features\hardsuits\code\space_suit_beacon.dm"
 
 //buts
 #include "code\modules\surgery\organs\internal\butts\butts.dm"
