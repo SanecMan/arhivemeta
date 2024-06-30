@@ -293,8 +293,8 @@ SUBSYSTEM_DEF(tts)
 	var/file_name = "tmp/tts/[identifier].ogg"
 	var/file_name_blips = "tmp/tts/[identifier]_blips.ogg"
 	/// MM-EDIT START
-	request.prepare(RUSTG_HTTP_METHOD_GET, "[CONFIG_GET(string/tts_http_url)]?speaker=[speaker]&effect=[url_encode(special_filters)]&ext=ogg&text=[shell_scrubbed_input]", null, headers, file_name)
-	request_blips.prepare(RUSTG_HTTP_METHOD_GET, "[CONFIG_GET(string/tts_http_url)]?speaker=[speaker]&effect=[url_encode(special_filters)]&ext=ogg&text=[shell_scrubbed_input]", null, headers, file_name_blips)
+	request.prepare(RUSTG_HTTP_METHOD_GET, "[CONFIG_GET(string/tts_http_url)]/?speaker=[speaker]&effect=[url_encode(special_filters)]&ext=ogg&text=[shell_scrubbed_input]", null, headers, file_name)
+	request_blips.prepare(RUSTG_HTTP_METHOD_GET, "[CONFIG_GET(string/tts_http_url)]/?speaker=[speaker]&effect=[url_encode(special_filters)]&ext=ogg&text=[shell_scrubbed_input]", null, headers, file_name_blips)
 	/// MM-EDIT END
 	var/datum/tts_request/current_request = new /datum/tts_request(identifier, request, request_blips, shell_scrubbed_input, target, local, language, message_range, volume_offset, listeners, pitch)
 	var/list/player_queued_tts_messages = queued_tts_messages[target]
