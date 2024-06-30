@@ -33,7 +33,7 @@
 	maximum = 12
 
 /datum/preference/numeric/tts_voice_pitch/is_accessible(datum/preferences/preferences)
-	if(!SStts.tts_enabled)
+	if(!SStts.tts_enabled || !SStts.pitch_enabled)
 		return FALSE
 	return ..()
 
