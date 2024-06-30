@@ -78,6 +78,7 @@ with open(file_reference, 'r') as file:
 
             with open(module_file_path_clean, 'r') as extra_file:
                 for extra_line in extra_file:
+                    total += 1
                     extra_line = extra_line.strip()
                     if (extra_line[10:14] != "code"):
                         red(f"       File [{extra_line}] must be in \"code/\" folder")
