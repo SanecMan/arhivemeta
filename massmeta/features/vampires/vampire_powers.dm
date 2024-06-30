@@ -96,8 +96,8 @@
 	school = SCHOOL_SANGUINE
 
 	cooldown_time = 30 SECONDS
-	active_msg = "You prepare your vampiric gaze.</span>"
-	deactive_msg = "You stop preparing your vampiric gaze.</span>"
+	active_msg = "You prepare your vampiric gaze."
+	deactive_msg = "You stop preparing your vampiric gaze."
 	vamp_req = TRUE
 
 /datum/action/cooldown/spell/pointed/gaze/is_valid_target(atom/target)
@@ -112,8 +112,8 @@
 	var/mob/living/carbon/human/T = target
 
 	if(T.stat == DEAD)
-		to_chat(owner,"<span class='warning'>You cannot gaze at corpses... \
-			or maybe you could if you really wanted to.</span>")
+		to_chat(owner,span_warning("You cannot gaze at corpses... \
+			or maybe you could if you really wanted to."))
 		return FALSE
 
 	return TRUE
@@ -127,7 +127,7 @@
 
 	var/mob/living/carbon/human/T = target_atom
 	user.visible_message(span_warning("[user]'s eyes flash red."),\
-					span_warning("your eyes flash red."))
+					span_warning("Your eyes flash red."))
 
 	var/protection = T.get_eye_protection()
 	switch(protection)
