@@ -10,6 +10,7 @@
 // BEGIN_INCLUDE
 #include "features\additional_circuit\includes.dm"
 #include "features\hardsuits\includes.dm"
+#include "features\smites\includes.dm"
 // END_INCLUDE
 
 
@@ -102,6 +103,3 @@
 #include "code\modules\reagents\chemistry\reagents\drinks\glass_styles\sodas.dm"
 #include "code\modules\reagents\reagent_containers\cups\soda.dm"
 #include "code\modules\reagents\reagent_dispenser.dm"
-
-//smites
-#include "features\smites\testicular_torsion.dm"
