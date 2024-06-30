@@ -89,9 +89,9 @@ with open(file_reference, 'r') as file:
                     extra_line.replace('\\', '/')
                     print(f"        [{extra_line[10:-1]}]")
 
-        if fail_no_include_modular:
-            post_error(f"Modular Ticked File Enforcement has failed!")
-            sys.exit(1)
+            if fail_no_include_modular:
+                post_error(f"Modular Ticked File Enforcement has failed!")
+                sys.exit(1)
         # MASSMETA EDIT ADDITION END
 
 offset = total - len(lines)
