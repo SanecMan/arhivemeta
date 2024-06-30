@@ -66,20 +66,27 @@ with open(file_reference, 'r') as file:
     # also add each modules files to futher check
     if scannable_directory == "massmeta/":
         fail_no_include_modular = False
-        print(blue(f"Getting all module files in {scannable_directory}..."))
+        print(blue(f"Scanning Modular Code... Checking files in {scannable_directory}"))
         for module_file in lines:
             module_file_path = module_file.replace('\\', '/')
-            module_file_path[10:(len(module_file) - 1)]
-            print(f"    {module_file} with in it:")
-            if module_file[(len(module_file) - 11):len(module_file)] != "includes.dm":
-                post_error(f"{module_file} must be named \"includes.dm\"")
+            module_file_path_clean = module_file_path[10:-1]
+            print(f"    {module_file_path_clean} with in it:")
+            if module_file_path_clean[-11:] != "includes.dm":
+                red(f"   File {module_file_path_clean} must be named \"includes.dm\"")
                 fail_no_include_modular = True
             else:
-                with open(module_file_path, 'r') as extra_file:
+                with open(module_file_path_clean, 'r') as extra_file:
                     for extra_line in extra_file:
-                        lines.append(module_file[:(len(module_file) - 11)] + extra_line[10:])
-                        print(f"        {module_file[:(len(module_file) - 11)] + extra_line[10:]}")
+                        extra_line = extra_line.strip()
+                        if (extra_line[10:14] != "code"):
+                            red(f"       File {extra_line} must be in \"code/\" folder")
+                            fail_no_include_modular = True
+                        
+                        extra_line = module_file[:-12] + extra_line[10:]
+                        lines.append(extra_line)
+                        print(f"        {extra_line}")
         if fail_no_include_modular:
+            post_error(f"Modular Ticked File Enforcement has failed!")
             sys.exit(1)
     # MASSMETA EDIT ADDITION END
 
