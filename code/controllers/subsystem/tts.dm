@@ -279,7 +279,7 @@ SUBSYSTEM_DEF(tts)
 	// if(contains_alphanumeric.Find(message) == 0)
 		// return
 
-	var/shell_scrubbed_input = tts_speech_filter(message)
+	var/shell_scrubbed_input = message
 	shell_scrubbed_input = copytext(shell_scrubbed_input, 1, 300)
 	var/identifier = "[sha1(speaker + filter + num2text(pitch) + special_filters + shell_scrubbed_input)].[world.time]"
 	if(!(speaker in available_speakers))
