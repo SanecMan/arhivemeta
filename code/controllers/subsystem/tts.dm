@@ -277,8 +277,10 @@ SUBSYSTEM_DEF(tts)
 	//var/static/regex/contains_alphanumeric = regex("\[a-zA-Z0-9]") MASSMETA EDIT REMOVAL (/n/tts)
 	// If there is no alphanumeric char, the output will usually be static, so
 	// don't bother sending
-	// if(contains_alphanumeric.Find(message) == 0)
-		// return
+	//MASSMETA EDIT REMOVAL BEGIN (/n/tts)
+	//if(contains_alphanumeric.Find(message) == 0)
+		//return
+	//MASSMETA EDIT REMOVAL END
 
 	var/shell_scrubbed_input = message //MASSMETA EDIT CHANGE (/n/tts) - ORIGINAL: = tts_speech_filter(message)
 	shell_scrubbed_input = copytext(shell_scrubbed_input, 1, 300)
