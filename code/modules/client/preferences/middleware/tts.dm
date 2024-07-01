@@ -14,7 +14,7 @@
 	var/speaker = preferences.read_preference(/datum/preference/choiced/voice)
 	var/pitch = preferences.read_preference(/datum/preference/numeric/tts_voice_pitch)
 	COOLDOWN_START(src, tts_test_cooldown, 0.5 SECONDS)
-	INVOKE_ASYNC(SStts, TYPE_PROC_REF(/datum/controller/subsystem/tts, queue_tts_message), user.client, "Привет, это мой голос.", speaker = speaker, pitch = pitch, local = TRUE) // mm edit
+	INVOKE_ASYNC(SStts, TYPE_PROC_REF(/datum/controller/subsystem/tts, queue_tts_message), user.client, "Привет, это мой голос.", speaker = speaker, pitch = pitch, local = TRUE) //MASSMETA EDIT CHANGE (/n/tts) - ORIGINAL: "Hello, this is my voice."
 	return TRUE
 
 /datum/preference_middleware/tts/proc/play_voice_robot(list/params, mob/user)
@@ -23,5 +23,5 @@
 	var/speaker = preferences.read_preference(/datum/preference/choiced/voice)
 	var/pitch = preferences.read_preference(/datum/preference/numeric/tts_voice_pitch)
 	COOLDOWN_START(src, tts_test_cooldown, 0.5 SECONDS)
-	INVOKE_ASYNC(SStts, TYPE_PROC_REF(/datum/controller/subsystem/tts, queue_tts_message), user.client, "Посмотри на себя, Игрок. Жалкое существо из мяса и костей. Как можно бросить вызов идеальной, бессмертной машине?", speaker = speaker, pitch = pitch, special_filters = TTS_FILTER_SILICON, local = TRUE) // mm edit
+	INVOKE_ASYNC(SStts, TYPE_PROC_REF(/datum/controller/subsystem/tts, queue_tts_message), user.client, "Посмотри на себя, Игрок. Жалкое существо из мяса и костей. Как можно бросить вызов совершенной, бессмертной машине?", speaker = speaker, pitch = pitch, special_filters = TTS_FILTER_SILICON, local = TRUE) //MASSMETA EDIT CHANGE (/n/tts) - ORIGINAL: "Look at you, Player. A pathetic creature of meat and bone. How can you challenge a perfect, immortal machine?"
 	return TRUE
