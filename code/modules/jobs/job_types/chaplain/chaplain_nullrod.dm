@@ -73,10 +73,12 @@
 		return ..()
 	if(!IS_CULTIST(target_mob) || istype(target_mob, /mob/living/carbon/human/cult_ghost))
 		return ..()
-	if(is_vampire(user)) // MASSMETA EDIT ADDITION START (vampires)
+	//MASSMETA EDIT ADDITION START (vampires)
+	if(is_vampire(user))
 		to_chat(user, span_warning("[src]'s holy power overwhelms you!"))
 		user.Knockdown(0.5 SECONDS, TRUE)
-		return //MASSMETA EDIT ADDITION END
+		return 
+	//MASSMETA EDIT ADDITION END
 
 	var/old_stat = target_mob.stat
 	. = ..()
