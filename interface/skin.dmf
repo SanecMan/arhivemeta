@@ -54,7 +54,7 @@ menu "menu"
 		category = "&Help"
 		saved-params = "is-checked"
 
-//MASSMETA EDIT ADDITION BEGIN (better ui)
+//MASSMETA EDIT ADDITION BEGIN (better_ui)
 	elem
 		name = "Refresh TGUI"
 		command = "refresh-tgui"
