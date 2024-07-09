@@ -9,7 +9,7 @@
 /proc/oguzok_moustache_words_replace_ru(word)
 	var/static/list/oguzok_words
 	if(!oguzok_words)
-		oguzok_words = strings("massmeta/features/oguzok/string/oguzok.json", "oguzok")
+		oguzok_words = strings("oguzok.json", "oguzok", "massmeta/features/oguzok/string")
 
 	var/match = oguzok_words[lowertext(word)]
 	if(!match)
