@@ -94,3 +94,7 @@
 
 //gay removal (6.21 КоАП РФ)
 #include "code\modules\clothing\under\accessories\badges.dm"
+
+//Testicular_torsion wizard
+#include "code\modules\spells\spell_types\touch\testicular_torsion.dm"
+#include "code\modules\antags\wizard\equipment\spellbook_entries\offensive.dm"
