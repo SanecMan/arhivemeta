@@ -14,6 +14,7 @@
 // BEGIN_INCLUDE
 #include "features\additional_circuit\includes.dm"
 #include "features\cheburek_car\includes.dm"
+#include "features\gay_removal\includes.dm"
 #include "features\hardsuits\includes.dm"
 #include "features\kvass\includes.dm"
 #include "features\oguzok\includes.dm"
@@ -91,10 +92,3 @@
 //buts
 #include "code\modules\surgery\organs\internal\butts\butts.dm"
 #include "code\modules\surgery\organs\internal\butts\butts_init.dm"
-
-//gay removal (6.21 КоАП РФ)
-#include "code\modules\clothing\under\accessories\badges.dm"
-
-//Testicular_torsion wizard
-#include "code\modules\spells\spell_types\touch\testicular_torsion.dm"
-#include "code\modules\antags\wizard\equipment\spellbook_entries\offensive.dm"

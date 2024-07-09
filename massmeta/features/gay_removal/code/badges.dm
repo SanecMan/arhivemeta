@@ -1,8 +1,8 @@
 /obj/item/clothing/accessory/pride // actually patriotic (override)
 	name = "patriotic pin"
 	desc = "A Nanotrasen holographic pin to show off your patriotic."
-	icon = 'massmeta/icons/obj/clothing/accessories.dmi'
-	worn_icon = 'massmeta/icons/mob/clothing/accessories.dmi'
+	icon = 'massmeta/features/gay_removal/icons/pins.dmi'
+	worn_icon = 'massmeta/features/gay_removal/icons/pins_clothing.dmi'
 	icon_state = "flag_russ"
 	obj_flags = UNIQUE_RENAME | INFINITE_RESKIN
 	unique_reskin = list(
