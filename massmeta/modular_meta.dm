@@ -16,6 +16,7 @@
 #include "features\cheburek_car\includes.dm"
 #include "features\hardsuits\includes.dm"
 #include "features\kvass\includes.dm"
+#include "features\oguzok\includes.dm"
 #include "features\smites\includes.dm"
 #include "features\soviet_crate\includes.dm"
 // END_INCLUDE
@@ -93,7 +94,3 @@
 
 //gay removal (6.21 КоАП РФ)
 #include "code\modules\clothing\under\accessories\badges.dm"
-
-//oguzok in kitchen, huh?
-#include "code\modules\clothing\under\undersuit.dm"
-#include "code\modules\clothing\masks\moustache_ru.dm"
