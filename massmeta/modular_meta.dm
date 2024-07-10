@@ -18,6 +18,7 @@
 #include "features\hardsuits\includes.dm"
 #include "features\kvass\includes.dm"
 #include "features\oguzok\includes.dm"
+#include "features\quirk_augmented\includes.dm"
 #include "features\smites\includes.dm"
 #include "features\soviet_crate\includes.dm"
 // END_INCLUDE
@@ -76,7 +77,6 @@
 #include "code\modules\jobs\job_types\head_of_personnel.dm"
 #include "game\objects\items\storage\garment.dm"
 #include "code\modules\hooch.dm"
-#include "code\datums\quirks\positive_quirks\augmented.dm"
 #include "code\game\machinery\computer\orders\order_items\mining\order_mining.dm"
 #include "code\game\objects\structures\crates_lockers\closets\secure\engineering.dm"
 #include "code\modules\cargo\markets\market_items\clothing.dm"

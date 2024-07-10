@@ -25,7 +25,7 @@ GLOBAL_LIST_INIT_TYPED(quirk_blacklist, /list/datum/quirk, list(
 	list(/datum/quirk/photophobia, /datum/quirk/nyctophobia),
 	list(/datum/quirk/item_quirk/settler, /datum/quirk/freerunning),
 	list(/datum/quirk/numb, /datum/quirk/selfaware),
-	//MASSMETA EDIT ADDITION START (augmented quirk)
+	//MASSMETA EDIT ADDITION START (quirk-augmented)
 	list(/datum/quirk/augmented, /datum/quirk/quadruple_amputee),
 	list(/datum/quirk/augmented, /datum/quirk/paraplegic),
 	list(/datum/quirk/augmented, /datum/quirk/hemiplegic),
