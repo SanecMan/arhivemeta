@@ -59,7 +59,6 @@
 #include "code\datums\components\crafting\weapon_ammo.dm"
 #include "code\modules\ammunition\ballistic\shotgun.dm"
 #include "code\modules\projectiles\projectile\bullets\shotgun.dm"
-#include "code\modules\projectiles\projectile\beams.dm"
 #include "code\modules\mining\lavaland\megafauna_loot.dm"
 #include "mapping\_basemap.dm"
 #include "code\modules\vending\wardrobes.dm"

@@ -11,6 +11,7 @@
 #include "master_files\code\modules\clothing\glasses\_glasses.dm"
 #include "master_files\code\modules\clothing\glasses\hud.dm"
 #include "master_files\code\modules\jobs\job_types\assistants\assistant.dm"
+#include "master_files\code\modules\projectiles\projectile\beams.dm"
 #include "master_files\code\modules\reagents\chemistry\reagents\drinks\alcohol_reagents.dm"
 #include "master_files\code\modules\reagents\withdrawal\generic_addictions.dm"
 #include "master_files\code\modules\surgery\bodyparts\head.dm"
