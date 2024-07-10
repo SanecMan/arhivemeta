@@ -8,10 +8,10 @@
 	speech_commands = list("heel", "follow", "айда", "идем", "за мной", "к ноге", "ко мне", "охран", "след")
 
 /datum/pet_command/play_dead
-	speech_commands = list("play dead", "мертв", "притворись", "умри")
+	speech_commands = list("play dead", "мертв", "притворись")
 
 /datum/pet_command/point_targeting/attack
-	speech_commands = list("attack", "sic", "kill", "атак", "бить", "куса", "куси", "фас")
+	speech_commands = list("attack", "sic", "kill", "атак", "бить", "бей", "еби", "куса", "куси", "сдохни", "умри" ,"фас")
 
 /datum/pet_command/point_targeting/breed
 	speech_commands = list("breed", "consummate", "ебитес", "размнож")
