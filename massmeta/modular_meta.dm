@@ -87,7 +87,6 @@
 #include "code\modules\uplink\uplink_items\nukeops.dm"
 #include "code\game\machinery\suit_storage_unit.dm"
 #include "code\modules\map_vote.dm"
-#include "code\modules\hallucination\fake_chat.dm"
 
 //buts
 #include "code\modules\surgery\organs\internal\butts\butts.dm"
