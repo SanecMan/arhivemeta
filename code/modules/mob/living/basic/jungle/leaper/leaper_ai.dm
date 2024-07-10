@@ -44,7 +44,7 @@
 	command_desc = "Command your pet to belly flop your target!"
 	radial_icon = 'icons/mob/actions/actions_items.dmi'
 	radial_icon_state = "sniper_zoom"
-	speech_commands = list("flop", "crush")
+	speech_commands = list("flop", "crush", "упади", "раздав", "дроби") //MASSMETA EDIT CHANGE (translate_pets_commands)
 	pet_ability_key = BB_LEAPER_FLOP
 
 /datum/pet_command/point_targeting/use_ability/bubble
@@ -52,7 +52,7 @@
 	command_desc = "Launch poisonous bubbles at your target!"
 	radial_icon = 'icons/obj/weapons/guns/projectiles.dmi'
 	radial_icon_state = "leaper"
-	speech_commands = list("bubble", "shoot")
+	speech_commands = list("bubble", "shoot", "паф", "пиу", "стрел") //MASSMETA EDIT CHANGE (translate_pets_commands)
 	pet_ability_key = BB_LEAPER_BUBBLE
 
 /datum/pet_command/untargeted_ability/blood_rain
@@ -60,7 +60,7 @@
 	command_desc = "Let it rain poisonous blood!"
 	radial_icon = 'icons/effects/effects.dmi'
 	radial_icon_state = "blood_effect_falling"
-	speech_commands = list("blood", "rain", "volley")
+	speech_commands = list("blood", "rain", "volley", "кровь", "дождь", "залп") //MASSMETA EDIT CHANGE (translate_pets_commands)
 	ability_key = BB_LEAPER_VOLLEY
 
 
@@ -69,5 +69,5 @@
 	command_desc = "Summon crazy suicide frogs!"
 	radial_icon = 'icons/mob/simple/animal.dmi'
 	radial_icon_state = "frog_trash"
-	speech_commands = list("frogs", "bombers")
+	speech_commands = list("frogs", "bombers", "лягушк", "бомб", "напад") //MASSMETA EDIT CHANGE (translate_pets_commands)
 	ability_key = BB_LEAPER_SUMMON

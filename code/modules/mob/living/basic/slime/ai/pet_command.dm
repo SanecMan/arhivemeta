@@ -1,5 +1,5 @@
 /datum/pet_command/point_targeting/attack/slime
-	speech_commands = list("attack", "sic", "kill", "eat", "feed")
+	speech_commands = list("attack", "sic", "kill", "eat", "feed", "атак", "бить", "куса", "куси", "фас", "жри", "куша") //MASSMETA EDIT CHANGE (translate_pets_commands)
 	command_feedback = "blorbles"
 	pointed_reaction = "and blorbles"
 	refuse_reaction = "jiggles sadly"

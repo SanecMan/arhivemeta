@@ -283,7 +283,7 @@
 	command_desc = "Make your minebot automatically mine!"
 	radial_icon = 'icons/obj/mining.dmi'
 	radial_icon_state = "pickaxe"
-	speech_commands = list("mine")
+	speech_commands = list("mine", "копа", "добыв", "бури") //MASSMETA EDIT CHANGE (translate_pets_commands)
 
 /datum/pet_command/automate_mining/execute_action(datum/ai_controller/controller)
 	controller.set_blackboard_key(BB_AUTOMATED_MINING, TRUE)
@@ -307,14 +307,14 @@
 /datum/pet_command/minebot_ability/light
 	command_name = "Toggle lights"
 	command_desc = "Make your minebot toggle its lights."
-	speech_commands = list("light")
+	speech_commands = list("light", "огни", "свет", "включ") //MASSMETA EDIT CHANGE (translate_pets_commands)
 	radial_icon_state = "mech_lights_off"
 	ability_key = BB_MINEBOT_LIGHT_ABILITY
 
 /datum/pet_command/minebot_ability/dump
 	command_name = "Dump ore"
 	command_desc = "Make your minebot dump all its ore!"
-	speech_commands = list("dump", "ore")
+	speech_commands = list("dump", "ore", "выброс", "выкин", "руд") //MASSMETA EDIT CHANGE (translate_pets_commands)
 	radial_icon_state = "mech_eject"
 	ability_key = BB_MINEBOT_DUMP_ABILITY
 

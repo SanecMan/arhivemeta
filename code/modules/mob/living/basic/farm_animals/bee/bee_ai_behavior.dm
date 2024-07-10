@@ -117,7 +117,7 @@
 /datum/pet_command/point_targeting/attack/swirl
 	command_name = "Swirl"
 	command_desc = "Your pets will swirl around you and attack whoever you point at!"
-	speech_commands = list("swirl", "spiral", "swarm")
+	speech_commands = list("swirl", "spiral", "swarm", "рой", "атак", "бить", "куса", "куси") //MASSMETA EDIT CHANGE (translate_pets_commands)
 	pointed_reaction = null
 	refuse_reaction = null
 	command_feedback = null
@@ -212,7 +212,7 @@
 /datum/pet_command/beehive/enter
 	command_name = "Enter beehive"
 	command_desc = "Your bees will enter their beehive."
-	speech_commands = list("enter", "home", "in")
+	speech_commands = list("enter", "home", "in", "домой", "домик", "прячь", "прята") //MASSMETA EDIT CHANGE (translate_pets_commands)
 
 /datum/pet_command/beehive/enter/check_beehive_conditions(mob/living/living_pawn, obj/structure/hive)
 	if(living_pawn in hive) //already in hive
@@ -222,7 +222,7 @@
 /datum/pet_command/beehive/exit
 	command_name = "Exit beehive"
 	command_desc = "Your bees will exit their beehive."
-	speech_commands = list("exit", "leave", "out")
+	speech_commands = list("exit", "leave", "out", "выйди", "выход", "покид", "покин") //MASSMETA EDIT CHANGE (translate_pets_commands)
 
 /datum/pet_command/beehive/exit/check_beehive_conditions(mob/living/living_pawn, obj/structure/hive)
 	return (living_pawn in hive)
@@ -230,7 +230,7 @@
 /datum/pet_command/scatter
 	command_name = "Scatter"
 	command_desc = "Command your pets to scatter all around you!"
-	speech_commands = list("disperse", "spread", "scatter")
+	speech_commands = list("disperse", "spread", "scatter", "исчезн", "айда", "идем", "за мной", "ко мне", "охран", "след") //MASSMETA EDIT CHANGE (translate_pets_commands)
 
 /datum/pet_command/scatter/set_command_active(mob/living/parent, mob/living/commander)
 	. = ..()

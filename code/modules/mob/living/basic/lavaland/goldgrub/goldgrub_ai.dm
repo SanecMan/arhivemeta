@@ -170,7 +170,7 @@
 /datum/pet_command/grub_spit
 	command_name = "Spit"
 	command_desc = "Ask your grub pet to spit out its ores."
-	speech_commands = list("spit", "ores")
+	speech_commands = list("spit", "ores", "руд", "выплюн", "дай") //MASSMETA EDIT CHANGE (translate_pets_commands)
 
 /datum/pet_command/grub_spit/execute_action(datum/ai_controller/controller)
 	var/datum/action/cooldown/spit_ability = controller.blackboard[BB_SPIT_ABILITY]

@@ -166,7 +166,7 @@
 	command_desc = "Command your pet to launch a solarbeam at your target!"
 	radial_icon = 'icons/effects/beam.dmi'
 	radial_icon_state = "solar_beam"
-	speech_commands = list("beam", "solar")
+	speech_commands = list("beam", "solar", "луч", "солн", "жги", "жечь") //MASSMETA EDIT CHANGE (translate_pets_commands)
 	pet_ability_key = BB_SOLARBEAM_ABILITY
 
 /datum/pet_command/point_targeting/use_ability/rapidseeds
@@ -174,5 +174,5 @@
 	command_desc = "Command your pet to launch a volley of seeds at your target!"
 	radial_icon = 'icons/obj/weapons/guns/projectiles.dmi'
 	radial_icon_state = "seedling"
-	speech_commands = list("rapid", "seeds", "volley")
+	speech_commands = list("rapid", "seeds", "volley", "каст", "паф", "пиу", "стрел", "семена", "залп") //MASSMETA EDIT CHANGE (translate_pets_commands)
 	pet_ability_key = BB_RAPIDSEEDS_ABILITY
