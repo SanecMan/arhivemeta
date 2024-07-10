@@ -1,7 +1,7 @@
 #define CHALLENGE_TELECRYSTALS 280
 #define CHALLENGE_TIME_LIMIT (5 MINUTES)
 #define CHALLENGE_SHUTTLE_DELAY (25 MINUTES) // 25 minutes, so the ops have at least 5 minutes before the shuttle is callable.
-// MASSMETA EDIT ADDITION START
+// MASSMETA EDIT ADDITION START (nukes_pop_reduce)
 #define WAR_TC_MIN 125
 #define WAR_TC_MAX 280
 #define WAR_MAX_PAYOUT 50
@@ -27,7 +27,7 @@ GLOBAL_LIST_EMPTY(jam_on_wardec)
 		return
 
 	declaring_war = TRUE
-//MASSMETA EDIT CHANGE START
+//MASSMETA EDIT CHANGE START (nukes_pop_reduce)
 	var/are_you_sure = tgui_alert(user, "Consult your team carefully before you declare war on [station_name()]]. Are you sure you want to alert the enemy crew? You will get \
 		[round(WAR_TC_MIN + (WAR_TC_MAX - WAR_TC_MIN) * (1 - (WAR_MAX_PAYOUT - min(WAR_MAX_PAYOUT, GLOB.joined_player_list.len)) / (WAR_MAX_PAYOUT - CHALLENGE_MIN_PLAYERS)), 1)] \
 		extra telecystals. You have [DisplayTimeText(CHALLENGE_TIME_LIMIT - world.time - SSticker.round_start_time)] to decide", "Declare war?", list("Yes", "No"))
@@ -124,7 +124,10 @@ GLOBAL_LIST_EMPTY(jam_on_wardec)
 			continue
 		uplinks += uplink
 
-	var/tc_to_distribute = round(WAR_TC_MIN + (WAR_TC_MAX - WAR_TC_MIN) * (1 - (WAR_MAX_PAYOUT - min(WAR_MAX_PAYOUT, GLOB.joined_player_list.len)) / (WAR_MAX_PAYOUT - CHALLENGE_MIN_PLAYERS)), 1) //MASSMETA EDIT CHANGE - ORIGINAL: var/tc_to_distribute = CHALLENGE_TELECRYSTALS
+	//MASSMETA EDIT CHANGE BEGIN (nukes_pop_reduce)
+	// var/tc_to_distribute = CHALLENGE_TELECRYSTALS // ORIGINAL
+	var/tc_to_distribute = round(WAR_TC_MIN + (WAR_TC_MAX - WAR_TC_MIN) * (1 - (WAR_MAX_PAYOUT - min(WAR_MAX_PAYOUT, GLOB.joined_player_list.len)) / (WAR_MAX_PAYOUT - CHALLENGE_MIN_PLAYERS)), 1)
+	//MASSMETA EDIT CHANGE END
 	var/tc_per_nukie = round(tc_to_distribute / (length(orphans)+length(uplinks)))
 
 	for (var/datum/component/uplink/uplink in uplinks)
@@ -207,7 +210,7 @@ GLOBAL_LIST_EMPTY(jam_on_wardec)
 #undef CHALLENGE_TELECRYSTALS
 #undef CHALLENGE_TIME_LIMIT
 #undef CHALLENGE_SHUTTLE_DELAY
-//MASSMETA EDIT ADDITION START
+//MASSMETA EDIT ADDITION START (nukes_pop_reduce)
 #undef WAR_TC_MIN
 #undef WAR_TC_MAX
 #undef WAR_MAX_PAYOUT
