@@ -12,27 +12,27 @@
 
 ### TG Proc/File Changes:
 
-- code/datums/components/pet_commands/fetch.dm
-- code/datums/components/pet_commands/pet_commands_basic.dm
-- code/modules/mob/living/basic/space_fauna/regal_rat/regal_rat_actions.dm
-- code/modules/mob/living/basic/pets/dog/_dog.dm
-- code/modules/mob/living/basic/jungle/leaper/leaper_ai.dm
-- code/modules/mob/living/basic/icemoon/wolf/wolf_extras.dm
-- code/modules/mob/living/basic/farm_animals/bee/bee_ai_behavior.dm
-- code/modules/mob/living/basic/pets/orbie/orbie_ai.dm
-- code/modules/mob/living/basic/heretic/star_gazer.dm
-- code/modules/mob/living/basic/jungle/seedling/seedling_ai.dm
-- code/modules/mob/living/basic/minebots/minebot_ai.dm
-- code/modules/mob/living/basic/lavaland/gutlunchers/gutlunchers_ai.dm
-- code/modules/mob/living/basic/pets/pet_cult/pet_cult_ai.dm
-- code/modules/mob/living/basic/bots/cleanbot/cleanbot_ai.dm
-- code/modules/mob/living/basic/lavaland/goldgrub/goldgrub_ai.dm
-- code/modules/mob/living/basic/slime/ai/pet_command.dm
+- N/A
 
 
 ### Modular Overrides:
 
-- N/A
+- master_files/code/datums/components/pet_commands/fetch.dm
+- master_files/code/datums/components/pet_commands/pet_commands_basic.dm
+- master_files/code/modules/mob/living/basic/bots/cleanbot/cleanbot_ai.dm
+- master_files/code/modules/mob/living/basic/farm_animals/bee/bee_ai_behavior.dm
+- master_files/code/modules/mob/living/basic/heretic/star_gazer.dm
+- master_files/code/modules/mob/living/basic/icemoon/wolf/wolf_extras.dm
+- master_files/code/modules/mob/living/basic/jungle/leaper/leaper_ai.dm
+- master_files/code/modules/mob/living/basic/jungle/seedling/seedling_ai.dm
+- master_files/code/modules/mob/living/basic/lavaland/goldgrub/goldgrub_ai.dm
+- master_files/code/modules/mob/living/basic/lavaland/gutlunchers/gutlunchers_ai.dm
+- master_files/code/modules/mob/living/basic/minebots/minebot_ai.dm
+- master_files/code/modules/mob/living/basic/pets/dog/_dog.dm
+- master_files/code/modules/mob/living/basic/pets/orbie/orbie_ai.dm
+- master_files/code/modules/mob/living/basic/pets/pet_cult/pet_cult_ai.dm
+- master_files/code/modules/mob/living/basic/slime/ai/pet_command.dm
+- master_files/code/modules/mob/living/basic/space_fauna/regal_rat/regal_rat_actions.dm
 
 
 ### Defines:

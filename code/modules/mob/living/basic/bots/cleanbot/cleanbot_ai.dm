@@ -206,7 +206,7 @@
 	command_desc = "Command a cleanbot to clean the mess."
 	radial_icon = 'icons/obj/service/janitor.dmi'
 	radial_icon_state = "mop"
-	speech_commands = list("clean", "mop", "мыть", "убира", "убери", "чисти") //MASSMETA EDIT CHANGE (translate_pets_commands)
+	speech_commands = list("clean", "mop")
 
 /datum/pet_command/point_targeting/clean/set_command_target(mob/living/parent, atom/target)
 	if(isnull(target) || !istype(target, /obj/effect/decal/cleanable))

@@ -8,7 +8,7 @@
 	command_desc = "Command your pet to retrieve something you throw or point at."
 	radial_icon = 'icons/mob/actions/actions_spells.dmi'
 	radial_icon_state = "summons"
-	speech_commands = list("fetch", "принес", "апорт") //MASSMETA EDIT CHANGE (translate_pets_commands)
+	speech_commands = list("fetch")
 	command_feedback = "bounces"
 	pointed_reaction = "with great interest"
 	/// If true, this command will trigger if the pet sees a friend throw any item, if they're not doing anything else

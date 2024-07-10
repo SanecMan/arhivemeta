@@ -103,7 +103,7 @@
 /datum/pet_command/mine_walls
 	command_name = "Mine"
 	command_desc = "Command your pet to mine down walls."
-	speech_commands = list("mine", "smash", "копа", "добыв", "лом", "бури") //MASSMETA EDIT CHANGE (translate_pets_commands)
+	speech_commands = list("mine", "smash")
 
 /datum/pet_command/mine_walls/try_activate_command(mob/living/commander)
 	var/mob/living/parent = weak_parent.resolve()

@@ -104,7 +104,7 @@
 	can_attack_dense_objects = TRUE
 
 /datum/pet_command/point_targeting/attack/star_gazer
-	speech_commands = list("attack", "sic", "kill", "slash them", "атак", "бить", "куса", "куси", "фас", "реж", "резня") //MASSMETA EDIT CHANGE (translate_pets_commands)
+	speech_commands = list("attack", "sic", "kill", "slash them")
 	command_feedback = "stares!"
 	pointed_reaction = "stares intensely!"
 	refuse_reaction = "..."

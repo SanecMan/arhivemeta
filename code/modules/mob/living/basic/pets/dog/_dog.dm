@@ -1,10 +1,10 @@
 // Add 'walkies' as valid input
 /datum/pet_command/follow/dog
-	speech_commands = list("heel", "follow", "walkies", "айда", "идем", "за мной", "к ноге", "ко мне", "охран", "след") //MASSMETA EDIT CHANGE (translate_pets_commands)
+	speech_commands = list("heel", "follow", "walkies")
 
 // Add 'good dog' as valid input
 /datum/pet_command/good_boy/dog
-	speech_commands = list("good dog", "хорош") //MASSMETA EDIT CHANGE (translate_pets_commands)
+	speech_commands = list("good dog")
 
 // Set correct attack behaviour
 /datum/pet_command/point_targeting/attack/dog

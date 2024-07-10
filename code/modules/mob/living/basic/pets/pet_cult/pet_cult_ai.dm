@@ -236,5 +236,5 @@
 	command_desc = "Draw a revival rune."
 	radial_icon = 'icons/obj/antags/cult/rune.dmi'
 	radial_icon_state = "1"
-	speech_commands = list("rune", "revival", "руна", "возро", "ожив") //MASSMETA EDIT CHANGE (translate_pets_commands)
+	speech_commands = list("rune", "revival")
 	ability_key = BB_RUNE_ABILITY

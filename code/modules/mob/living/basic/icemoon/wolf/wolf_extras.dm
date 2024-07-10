@@ -1,10 +1,10 @@
 // Some flavor additions for wolf-related pet commands
 /datum/pet_command/good_boy/wolf
-	speech_commands = list("good wolf", "волк", "пес", "пёс", "хорош") //MASSMETA EDIT CHANGE (translate_pets_commands)
+	speech_commands = list("good wolf")
 
 /datum/pet_command/follow/wolf
 	// Nordic-themed for a bit of extra flavor
-	speech_commands = list("heel", "follow", "fylgja", "fyl", "айда", "идем", "за мной", "к ноге", "ко мне", "охран", "след") //MASSMETA EDIT CHANGE (translate_pets_commands)
+	speech_commands = list("heel", "follow", "fylgja", "fyl")
 
 // Contains pixel offset data for sprites riding wolves
 /datum/component/riding/creature/wolf
