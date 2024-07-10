@@ -1,16 +1,16 @@
- /**
- * Really big car with 4х4 sprite.
- *
- * Can run people over.
- *
- * Can run ALL over in "I DRIVE" mode.
- *
- * Has gearbox, you can break it, and also fix it by yourself!
- *
- * It can be used in minor events.
- *
- * Some memes and gags included.
- */
+/*
+Really big car with 4х4 sprite.
+
+Can run people over.
+
+Can run ALL over in "I DRIVE" mode.
+
+Has gearbox, you can break it, and also fix it by yourself!
+
+It can be used in minor events.
+
+Some memes and gags included.
+*/
 
 /obj/vehicle/sealed/car/cheburek
 	name = "Cheburek"
@@ -187,7 +187,7 @@
 	else
 		add_overlay(image(icon, "close_bonnet_stickers", ABOVE_MOB_LAYER))
 	playsound(src, 'massmeta/features/cheburek_car/sound/gopnik_laught.ogg', 66)
-	balloon_alert(user, "Some odd insulating tape appeared on [src].")
+	balloon_alert(user, "some odd insulating tape appeared on [src].")
 	visible_message(span_userdanger("You hear a terrible roar from under the bottom of the car"))
 	name = "Cheburek Chad"
 	desc = "This is a verified Slavic Сar, that's all you need to know"
@@ -308,7 +308,7 @@
 					playsound(src, pick('massmeta/features/cheburek_car/sound/gear_blyat.ogg', 'massmeta/features/cheburek_car/sound/gear_nah.ogg'), 100)
 					toggle_blinkers()
 				canmove = FALSE
-				balloon_alert(user, "Gearbox broken")
+				balloon_alert(user, "gearbox broken")
 			else
 				gearbox_failure_count++
 			AddElement(/datum/element/waddling)
@@ -339,7 +339,7 @@
 					playsound(src, pick('massmeta/features/cheburek_car/sound/gear_blyat.ogg', 'massmeta/features/cheburek_car/sound/gear_nah.ogg'), 100)
 					toggle_blinkers()
 				canmove = FALSE
-				balloon_alert(user, "Gearbox broken")
+				balloon_alert(user, "gearbox broken")
 			else
 				gearbox_failure_count++
 			AddElement(/datum/element/waddling) // your gears are juggling like a clown do

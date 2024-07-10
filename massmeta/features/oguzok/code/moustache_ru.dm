@@ -11,7 +11,7 @@
 	if(!oguzok_words)
 		oguzok_words = strings("oguzok.json", "oguzok", "massmeta/features/oguzok/string")
 
-	var/match = oguzok_words[lowertext(word)]
+	var/match = oguzok_words[LOWER_TEXT(word)]
 	if(!match)
 		return word
 
