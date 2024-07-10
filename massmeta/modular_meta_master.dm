@@ -7,6 +7,7 @@
  */
 
 // BEGIN_INCLUDE
+#include "master_files\code\mob\living\basic\space_fauna\space_dragon\space_dragon.dm"
 #include "master_files\code\modules\clothing\glasses\_glasses.dm"
 #include "master_files\code\modules\clothing\glasses\hud.dm"
 #include "master_files\code\modules\surgery\bodyparts\head.dm"
