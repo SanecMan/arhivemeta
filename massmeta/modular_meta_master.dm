@@ -9,4 +9,5 @@
 // BEGIN_INCLUDE
 #include "master_files\code\modules\clothing\glasses\_glasses.dm"
 #include "master_files\code\modules\clothing\glasses\hud.dm"
+#include "master_files\code\modules\surgery\bodyparts\head.dm"
 // END_INCLUDE

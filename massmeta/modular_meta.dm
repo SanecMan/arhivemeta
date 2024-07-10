@@ -30,7 +30,6 @@
 #include "interface\interface.dm"
 #include "code\modules\clothing\clothing.dm"
 #include "code\modules\surgery\organs\tongue.dm"
-#include "code\modules\surgery\bodyparts\head.dm"
 #include "code\modules\clothing\suits\chaplainsuits.dm"
 #include "code\modules\admin\verbs\adminhelp.dm"
 #include "code\modules\mob\living\carbon\human\emote.dm"
