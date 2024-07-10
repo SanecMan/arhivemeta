@@ -216,6 +216,35 @@
 		"Даю тебе разрешение. Сделай это.",
 		"Не верь им.",
 		"Нужно уходить. Быстрее."
+	],
+
+	"chemicals": [
+		"?????",
+		"Air",
+		"Awesome",
+		"Blood",
+		"Button",
+		"Death",
+		"Despair",
+		"Earth",
+		"Electronics",
+		"Energy",
+		"Fire",
+		"Guts",
+		"Happiness",
+		"Infinity",
+		"Life",
+		"Lightning",
+		"Magic",
+		"Mana",
+		"Ooze",
+		"Pain",
+		"Phlebotinium",
+		"Something",
+		"Space",
+		"Spiders",
+		"Surprise",
+		"Time"
 	]
 
 }
