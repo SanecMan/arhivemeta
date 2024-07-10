@@ -48,7 +48,7 @@
 	if(!chosen)
 		if(is_radio)
 			//MASSMETA EDIT CHANGE START (hallucinations_ru)
-			/*
+			/* ORIGINAL
 			chosen = pick(list("Help!",
 				"[pick_list_replacements(HALLUCINATION_FILE, "people")] is [pick_list_replacements(HALLUCINATION_FILE, "accusations")]!",
 				"[pick_list_replacements(HALLUCINATION_FILE, "threat")] in [pick_list_replacements(HALLUCINATION_FILE, "location")][prob(50)?"!":"!!"]",
@@ -67,8 +67,11 @@
 				"Борги плохие!",
 			))
 			//MASSMETA EDIT CHANGE END
+
 		else
-			chosen = pick(list("[pick_list_replacements(HALLUCINATION_FILE, "suspicion")]",
+			//MASSMETA EDIT CHANGE START (hallucinations_ru)
+			chosen = pick(list(
+				"[pick_list_replacements(HALLUCINATION_FILE, "suspicion")]",
 				"[pick_list_replacements(HALLUCINATION_FILE, "conversation")]",
 				"[pick_list_replacements(HALLUCINATION_FILE, "greetings")][hallucinator.first_name()]!",
 				"[pick_list_replacements(HALLUCINATION_FILE, "getout")]",
@@ -78,11 +81,10 @@
 				"[pick_list_replacements(HALLUCINATION_FILE, "aggressive")]",
 				"[pick_list_replacements(HALLUCINATION_FILE, "help")]!!",
 				"[pick_list_replacements(HALLUCINATION_FILE, "escape")]",
-				//MASSMETA EDIT CHANGE START (hallucinations_ru)
-				//"I'm infected, [pick_list_replacements(HALLUCINATION_FILE, "infection_advice")]!",
+				//"I'm infected, [pick_list_replacements(HALLUCINATION_FILE, "infection_advice")]!", // ORIGINAL
 				"У меня болезнь, [pick_list_replacements(HALLUCINATION_FILE, "infection_advice")]!",
-				//MASSMETA EDIT CHANGE END
 			))
+			//MASSMETA EDIT CHANGE END
 
 		chosen = capitalize(chosen)
 
