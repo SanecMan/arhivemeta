@@ -1,0 +1,5 @@
+/obj/item/organ/internal/liver/examine(mob/user)
+	. = ..()
+	if(HAS_TRAIT(user, TRAIT_ENTRAILS_READER) || isobserver(user))
+		if(HAS_TRAIT(src, TRAIT_GREYTIDE_METABOLISM))
+			. += span_info("Greyer than most with electrical burn marks, this is the liver of an <em>assistant</em>.")

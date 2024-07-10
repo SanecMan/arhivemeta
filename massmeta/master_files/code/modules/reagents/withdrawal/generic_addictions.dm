@@ -1,0 +1,5 @@
+/datum/addiction/maintenance_drugs/withdrawal_enters_stage_3(mob/living/carbon/affected_carbon)
+	. = ..()
+	var/obj/item/organ/internal/liver/empowered_liver = affected_carbon.get_organ_by_type(/obj/item/organ/internal/liver)
+	if(empowered_liver)
+		ADD_TRAIT(empowered_liver, TRAIT_GREYTIDE_METABOLISM, "maint_drug_addiction")
