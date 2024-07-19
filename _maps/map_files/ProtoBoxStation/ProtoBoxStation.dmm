@@ -778,11 +778,11 @@
 /area/station/command/heads_quarters/hos)
 "acT" = (
 /obj/machinery/door/window/left/directional/east{
-	name = "armoury desk";
+	name = "Armoury Desk";
 	req_access = list("security")
 	},
 /obj/machinery/door/window/left/directional/west{
-	name = "armoury desk";
+	name = "Armoury Desk";
 	req_access = list("armory")
 	},
 /obj/structure/table/reinforced,
@@ -12443,7 +12443,6 @@
 /obj/effect/turf_decal/plaque{
 	icon_state = "L14"
 	},
-/obj/effect/turf_decal/trimline/neutral/line,
 /obj/effect/turf_decal/trimline/neutral/line{
 	dir = 1
 	},
@@ -13165,31 +13164,35 @@
 /turf/closed/wall/r_wall,
 /area/station/command/bridge)
 "aPS" = (
-/obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	name = "Bridge blast door"
+	name = "Bridge Blast Door"
 	},
 /obj/structure/cable,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/command/bridge)
 "aPT" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	name = "Bridge blast door"
+	name = "Bridge Blast Door"
+	},
+/obj/structure/cable,
+/obj/machinery/door/poddoor/preopen{
+	id = "bridge blast";
+	name = "Bridge Blast Door"
 	},
 /obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/command/bridge)
 "aPU" = (
 /obj/machinery/status_display/evac,
-/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	name = "Bridge blast door"
+	name = "Bridge Blast Door"
 	},
-/obj/structure/cable,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/command/bridge)
 "aPY" = (
@@ -14790,11 +14793,11 @@
 "aVc" = (
 /obj/structure/sign/warning/secure_area/directional/east,
 /obj/machinery/door/firedoor,
+/obj/effect/turf_decal/delivery,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	name = "Bridge blast door"
+	name = "Bridge Blast Door"
 	},
-/obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/command/bridge)
 "aVd" = (
@@ -14873,11 +14876,11 @@
 "aVt" = (
 /obj/structure/sign/warning/secure_area/directional/west,
 /obj/machinery/door/firedoor,
+/obj/effect/turf_decal/delivery,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	name = "Bridge blast door"
+	name = "Bridge Blast Door"
 	},
-/obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/command/bridge)
 "aVu" = (
@@ -15203,12 +15206,12 @@
 /area/station/command/bridge)
 "aWI" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor/preopen{
-	id = "bridge blast";
-	name = "Bridge blast door"
-	},
 /obj/effect/turf_decal/delivery,
 /obj/structure/cable,
+/obj/machinery/door/poddoor/preopen{
+	id = "bridge blast";
+	name = "Bridge Blast Door"
+	},
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "aWJ" = (
@@ -15343,14 +15346,14 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/poddoor/preopen{
-	id = "bridge blast";
-	name = "Bridge blast door"
-	},
 /obj/effect/turf_decal/delivery,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/poddoor/preopen{
+	id = "bridge blast";
+	name = "Bridge Blast Door"
+	},
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "aXc" = (
@@ -15720,11 +15723,11 @@
 /area/station/command/bridge)
 "aYo" = (
 /obj/machinery/door/firedoor,
+/obj/effect/turf_decal/delivery,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	name = "Bridge blast door"
+	name = "Bridge Blast Door"
 	},
-/obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/command/bridge)
 "aYr" = (
@@ -17151,11 +17154,11 @@
 /turf/open/floor/iron/small,
 /area/station/hallway/secondary/exit/departure_lounge)
 "bdy" = (
+/obj/structure/cable,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	name = "Bridge blast door"
+	name = "Bridge Blast Door"
 	},
-/obj/structure/cable,
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/command/bridge)
@@ -18411,19 +18414,15 @@
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "bhy" = (
+/obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "robotics";
-	name = "robotics lab shutters"
+	name = "Robotics Lab Shutters"
 	},
-/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/science/robotics/lab)
 "bhz" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "robotics";
-	name = "robotics lab shutters"
-	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/window/right/directional/east{
 	base_state = "left";
@@ -18431,6 +18430,10 @@
 	icon_state = "left";
 	name = "Robotics Desk";
 	req_access = list("robotics")
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "robotics";
+	name = "Robotics Lab Shutters"
 	},
 /turf/open/floor/plating,
 /area/station/science/robotics/lab)
@@ -20995,7 +20998,7 @@
 /obj/effect/spawner/structure/window,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "robotics2";
-	name = "robotics lab shutters"
+	name = "Robotics Lab Shutters"
 	},
 /turf/open/floor/plating,
 /area/station/science/robotics/lab)
@@ -21314,7 +21317,7 @@
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "robotics2";
-	name = "robotics lab shutters"
+	name = "Robotics Lab Shutters"
 	},
 /obj/item/folder/white,
 /obj/item/pen,
@@ -21988,11 +21991,11 @@
 /turf/open/floor/iron/dark,
 /area/station/medical/virology)
 "buj" = (
+/obj/effect/spawner/structure/window,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "robotics2";
-	name = "robotics lab shutters"
+	name = "Robotics Lab Shutters"
 	},
-/obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/station/science/robotics/lab)
 "bum" = (
@@ -37130,6 +37133,13 @@
 	},
 /turf/open/floor/plating,
 /area/station/cargo/miningoffice)
+"dDU" = (
+/obj/effect/turf_decal/trimline/neutral/line,
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/station/hallway/primary/central)
 "dDV" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -41357,7 +41367,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/obj/machinery/plumbing/growing_vat,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/science/xenobiology)
@@ -42092,7 +42101,7 @@
 /obj/structure/cable,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "robotics";
-	name = "robotics lab shutters"
+	name = "Robotics Lab Shutters"
 	},
 /turf/open/floor/plating,
 /area/station/science/robotics/lab)
@@ -88709,7 +88718,7 @@ osV
 aLZ
 aNv
 aOE
-aPS
+bdy
 aRk
 aSw
 maK
@@ -88966,7 +88975,7 @@ aJq
 aMc
 aNy
 aOE
-aPS
+bdy
 aRn
 aSz
 aTY
@@ -89223,7 +89232,7 @@ pDu
 aMb
 aNx
 aOE
-aPS
+bdy
 aRm
 aSy
 aWV
@@ -89480,7 +89489,7 @@ aJq
 aMe
 aNA
 aOE
-aPS
+bdy
 aRp
 aSB
 aTZ
@@ -89737,7 +89746,7 @@ aJq
 aMd
 aNz
 oKd
-aPS
+bdy
 aRo
 aSA
 aTW
@@ -90249,7 +90258,7 @@ aJw
 aJn
 aJn
 aMj
-cJU
+dDU
 aOE
 bdy
 aRq
