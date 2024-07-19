@@ -26,7 +26,7 @@
 	/// Determines if the accessory will be skipped or included in random hair generations.
 	var/gender = NEUTER
 	/// Something that can be worn by either gender, but looks different on each.
-	var/gender_specific
+	var/gender_specific = FALSE
 	/// Determines if the accessory will be skipped by color preferences.
 	var/use_static
 	/**
@@ -46,6 +46,9 @@
 	var/dimension_y = 32
 	/// Should this sprite block emissives?
 	var/em_block = FALSE
+	/// Determines if this is considered "sane" for the purpose of [/proc/randomize_human_normie]
+	/// Basically this is to blacklist the extremely wacky stuff from being picked in random human generation.
+	var/natural_spawn = TRUE
 
 /datum/sprite_accessory/blank
 	name = "None"
@@ -74,11 +77,13 @@
 /datum/sprite_accessory/hair/afro_large
 	name = "Afro (Large)"
 	icon_state = "hair_bigafro"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/afro_huge
 	name = "Afro (Huge)"
 	icon_state = "hair_hugeafro"
 	y_offset = 6
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/allthefuzz
 	name = "All The Fuzz"
@@ -119,6 +124,7 @@
 /datum/sprite_accessory/hair/bedheadfloorlength
 	name = "Floorlength Bedhead"
 	icon_state = "hair_floorlength_bedhead"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/badlycut
 	name = "Shorter Long Bedhead"
@@ -359,6 +365,7 @@
 /datum/sprite_accessory/hair/bigflattop
 	name = "Flat Top (Big)"
 	icon_state = "hair_bigflattop"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/flow_hair
 	name = "Flow Hair"
@@ -419,6 +426,7 @@
 /datum/sprite_accessory/hair/joestar
 	name = "Joestar"
 	icon_state = "hair_joestar"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/keanu
 	name = "Keanu Hair"
@@ -475,22 +483,27 @@
 /datum/sprite_accessory/hair/mohawk
 	name = "Mohawk"
 	icon_state = "hair_d"
+	natural_spawn = FALSE // sorry little one
 
 /datum/sprite_accessory/hair/nitori
 	name = "Nitori"
 	icon_state = "hair_nitori"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/reversemohawk
 	name = "Mohawk (Reverse)"
 	icon_state = "hair_reversemohawk"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/shavedmohawk
 	name = "Mohawk (Shaved)"
 	icon_state = "hair_shavedmohawk"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/unshavenmohawk
 	name = "Mohawk (Unshaven)"
 	icon_state = "hair_unshaven_mohawk"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/mulder
 	name = "Mulder"
@@ -499,6 +512,7 @@
 /datum/sprite_accessory/hair/odango
 	name = "Odango"
 	icon_state = "hair_odango"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/ombre
 	name = "Ombre"
@@ -531,14 +545,17 @@
 /datum/sprite_accessory/hair/kagami
 	name = "Pigtails"
 	icon_state = "hair_kagami"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/pigtail
 	name = "Pigtails 2"
 	icon_state = "hair_pigtails"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/pigtail2
 	name = "Pigtails 3"
 	icon_state = "hair_pigtails2"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/hair/pixie
 	name = "Pixie Cut"
@@ -917,6 +934,7 @@
 /datum/sprite_accessory/facial_hair/brokenman
 	name = "Beard (Broken Man)"
 	icon_state = "facial_brokenman"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/facial_hair/chinstrap
 	name = "Beard (Chinstrap)"
@@ -961,6 +979,7 @@
 /datum/sprite_accessory/facial_hair/martialartist
 	name = "Beard (Martial Artist)"
 	icon_state = "facial_martialartist"
+	natural_spawn = FALSE
 
 /datum/sprite_accessory/facial_hair/chinlessbeard
 	name = "Beard (Chinless Beard)"
@@ -1539,11 +1558,14 @@
 	icon_state = null
 
 // please make sure they're sorted alphabetically and categorized
-/*   MASSMETA EDIT REMOVAL
+
+//MASSMETA EDIT REMOVAL BEGIN (gay removal)
+/*
 /datum/sprite_accessory/socks/ace_knee
 	name = "Knee-high (Ace)"
 	icon_state = "ace_knee"
 */
+//MASSMETA EDIT REMOVAL END
 /datum/sprite_accessory/socks/bee_knee
 	name = "Knee-high (Bee)"
 	icon_state = "bee_knee"
@@ -1559,11 +1581,13 @@
 /datum/sprite_accessory/socks/usa_knee
 	name = "Knee-High (Freedom)"
 	icon_state = "assblastusa_knee"
-/*   MASSMETA EDIT REMOVAL
+//MASSMETA EDIT REMOVAL BEGIN (gay removal)
+/*
 /datum/sprite_accessory/socks/rainbow_knee
 	name = "Knee-high (Rainbow)"
 	icon_state = "rainbow_knee"
 */
+//MASSMETA EDIT REMOVAL END
 /datum/sprite_accessory/socks/striped_knee
 	name = "Knee-high (Striped)"
 	icon_state = "striped_knee"
@@ -1571,11 +1595,13 @@
 /datum/sprite_accessory/socks/thin_knee
 	name = "Knee-high (Thin)"
 	icon_state = "thin_knee"
-/*   MASSMETA EDIT REMOVAL
+//MASSMETA EDIT REMOVAL BEGIN (gay removal)
+/*
 /datum/sprite_accessory/socks/trans_knee
 	name = "Knee-high (Trans)"
 	icon_state = "trans_knee"
 */
+//MASSMETA EDIT REMOVAL END
 /datum/sprite_accessory/socks/uk_knee
 	name = "Knee-High (UK)"
 	icon_state = "uk_knee"
@@ -1643,11 +1669,13 @@
 /datum/sprite_accessory/socks/stockings_fishnet
 	name = "Stockings (Fishnet)"
 	icon_state = "fishnet_full"
-/*   MASSMETA EDIT REMOVAL
+//MASSMETA EDIT REMOVAL BEGIN (gay removal)
+/*
 /datum/sprite_accessory/socks/ace_thigh
 	name = "Thigh-high (Ace)"
 	icon_state = "ace_thigh"
 */
+//MASSMETA EDIT REMOVAL END
 /datum/sprite_accessory/socks/bee_thigh
 	name = "Thigh-high (Bee)"
 	icon_state = "bee_thigh"
@@ -1663,11 +1691,13 @@
 /datum/sprite_accessory/socks/usa_thigh
 	name = "Thigh-high (Freedom)"
 	icon_state = "assblastusa_thigh"
-/*   MASSMETA EDIT REMOVAL
+//MASSMETA EDIT REMOVAL BEGIN (gay removal)
+/*
 /datum/sprite_accessory/socks/rainbow_thigh
 	name = "Thigh-high (Rainbow)"
 	icon_state = "rainbow_thigh"
 */
+//MASSMETA EDIT REMOVAL END
 /datum/sprite_accessory/socks/striped_thigh
 	name = "Thigh-high (Striped)"
 	icon_state = "striped_thigh"
@@ -1675,11 +1705,13 @@
 /datum/sprite_accessory/socks/thin_thigh
 	name = "Thigh-high (Thin)"
 	icon_state = "thin_thigh"
-/*   MASSMETA EDIT REMOVAL
+//MASSMETA EDIT REMOVAL BEGIN (gay removal)
+/*
 /datum/sprite_accessory/socks/trans_thigh
 	name = "Thigh-high (Trans)"
 	icon_state = "trans_thigh"
 */
+//MASSMETA EDIT REMOVAL END
 /datum/sprite_accessory/socks/uk_thigh
 	name = "Thigh-high (UK)"
 	icon_state = "uk_thigh"
