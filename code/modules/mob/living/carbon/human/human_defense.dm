@@ -129,15 +129,16 @@
 	apply_damage(15, BRUTE, wound_bonus=10)
 
 /mob/living/carbon/human/attack_hand(mob/user, list/modifiers)
+	//MASSMETA EDIT ADDITION START (vampires)
+	var/mob/living/carbon/human/human = user
+	if(human.combat_mode && handle_vamp_biting(human))
+		return TRUE
+	//MASSMETA EDIT ADDITION END
 	. = ..()
 	if(.)
 		return TRUE
 	if(ishuman(user))
 		var/mob/living/carbon/human/H = user
-		//MASSMETA EDIT ADDITION START (vampires)
-		if(H.combat_mode && handle_vamp_biting(H))
-			return
-		//MASSMETA EDIT ADDITION END
 		dna.species.spec_attack_hand(H, src, null, modifiers)
 
 /mob/living/carbon/human/proc/disarm_precollide(datum/source, mob/living/shover, mob/living/target, obj/item/weapon)
