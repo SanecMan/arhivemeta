@@ -1993,7 +1993,7 @@
 "agD" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "Prison Gate";
-	name = "prison blast door"
+	name = "Prison Blast Door"
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
@@ -2028,7 +2028,7 @@
 /obj/structure/sign/warning/secure_area/directional/west,
 /obj/machinery/door/poddoor/preopen{
 	id = "Prison Gate";
-	name = "prison blast door"
+	name = "Prison Blast Door"
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
@@ -16265,7 +16265,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "kitchen";
-	name = "Kitchen shutters"
+	name = "Kitchen Shutters"
 	},
 /obj/structure/desk_bell{
 	pixel_x = -4;
@@ -16278,7 +16278,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "kitchen";
-	name = "Kitchen shutters"
+	name = "Kitchen Shutters"
 	},
 /obj/item/reagent_containers/condiment/saltshaker{
 	pixel_x = -3
@@ -20570,7 +20570,7 @@
 /obj/effect/turf_decal/stripes/red/line,
 /obj/machinery/door/poddoor/preopen{
 	id = "Biohazard";
-	name = "Biohazard containment door"
+	name = "Biohazard Containment Door"
 	},
 /turf/open/floor/iron/herringbone,
 /area/station/science/research)
@@ -20588,7 +20588,7 @@
 /obj/effect/turf_decal/caution/stand_clear/red,
 /obj/machinery/door/poddoor/preopen{
 	id = "Biohazard";
-	name = "Biohazard containment door"
+	name = "Biohazard Containment Door"
 	},
 /turf/open/floor/iron/herringbone,
 /area/station/science/research)
@@ -21056,7 +21056,7 @@
 	},
 /obj/machinery/door/poddoor{
 	id = "QMLoaddoor2";
-	name = "supply dock loading door"
+	name = "Supply Dock Loading Door"
 	},
 /turf/open/floor/plating,
 /area/station/cargo/storage)
@@ -22173,7 +22173,7 @@
 /obj/machinery/door/firedoor/heavy,
 /obj/machinery/door/poddoor/preopen{
 	id = "Biohazard";
-	name = "biohazard containment door"
+	name = "Biohazard Containment Door"
 	},
 /obj/effect/turf_decal/bot,
 /obj/structure/cable,
@@ -22376,7 +22376,7 @@
 	},
 /obj/machinery/door/poddoor{
 	id = "QMLoaddoor";
-	name = "supply dock loading door"
+	name = "Supply Dock Loading Door"
 	},
 /turf/open/floor/plating,
 /area/station/cargo/storage)
@@ -30028,7 +30028,7 @@
 /obj/structure/cable,
 /obj/machinery/door/poddoor/preopen{
 	id = "ceprivacy";
-	name = "Privacy shutter"
+	name = "Privacy Shutter"
 	},
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -31265,14 +31265,12 @@
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "cfc" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/preopen{
-	id = "ceprivacy";
-	name = "privacy shutter"
+/obj/effect/turf_decal/trimline/neutral/line,
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 1
 	},
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/station/command/heads_quarters/ce)
+/turf/open/space/basic,
+/area/station/hallway/primary/central)
 "cfe" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/sign/warning/secure_area/directional/east,
@@ -37133,13 +37131,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/cargo/miningoffice)
-"dDU" = (
-/obj/effect/turf_decal/trimline/neutral/line,
-/obj/effect/turf_decal/trimline/neutral/line{
-	dir = 1
-	},
-/turf/open/space/basic,
-/area/station/hallway/primary/central)
 "dDV" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -38649,7 +38640,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "kitchen";
-	name = "Kitchen shutters"
+	name = "Kitchen Shutters"
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/kitchen/diagonal,
@@ -40306,7 +40297,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "kitchen";
-	name = "Kitchen shutters"
+	name = "Kitchen Shutters"
 	},
 /obj/machinery/door/firedoor,
 /obj/item/storage/fancy/donut_box,
@@ -40401,7 +40392,7 @@
 "gAO" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "kitchen";
-	name = "Kitchen shutters"
+	name = "Kitchen Shutters"
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -40437,7 +40428,7 @@
 /obj/machinery/door/firedoor/heavy,
 /obj/machinery/door/poddoor/preopen{
 	id = "Biohazard";
-	name = "biohazard containment door"
+	name = "Biohazard Containment Door"
 	},
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/stripes/line{
@@ -46923,7 +46914,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "ceprivacy";
-	name = "Privacy shutter"
+	name = "Privacy Shutter"
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -50141,7 +50132,7 @@
 /obj/effect/turf_decal/stripes/red/line,
 /obj/machinery/door/poddoor/preopen{
 	id = "Biohazard";
-	name = "Biohazard containment door"
+	name = "Biohazard Containment Door"
 	},
 /turf/open/floor/iron/herringbone,
 /area/station/science/research)
@@ -55645,7 +55636,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "kitchen";
-	name = "Kitchen shutters"
+	name = "Kitchen Shutters"
 	},
 /turf/open/floor/iron/kitchen/diagonal,
 /area/station/service/kitchen)
@@ -59407,7 +59398,7 @@
 /obj/structure/cable,
 /obj/machinery/door/poddoor/preopen{
 	id = "ceprivacy";
-	name = "Privacy shutter"
+	name = "Privacy Shutter"
 	},
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -90258,7 +90249,7 @@ aJw
 aJn
 aJn
 aMj
-dDU
+cfc
 aOE
 bdy
 aRq
@@ -91090,7 +91081,7 @@ pZe
 bZu
 bbw
 bbw
-cfc
+mjo
 mjo
 bbw
 bbw
