@@ -25338,9 +25338,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/obj/machinery/computer/security/telescreen/ordnance{
-	pixel_x = 28
-	},
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/purple/opposingcorners,
 /turf/open/floor/iron/dark,
@@ -26216,11 +26213,6 @@
 /turf/open/floor/iron/dark,
 /area/station/science/xenobiology)
 "bKY" = (
-/obj/machinery/computer/security/telescreen{
-	name = "Test Chamber Monitor";
-	network = list("xeno");
-	pixel_y = 2
-	},
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/siding/purple,
@@ -27939,13 +27931,13 @@
 /obj/machinery/computer/records/security{
 	dir = 8
 	},
-/obj/machinery/computer/security/telescreen/engine{
-	dir = 8;
-	pixel_x = 24
-	},
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
+	},
+/obj/machinery/computer/security/telescreen/engine{
+	dir = 8;
+	pixel_x = 24
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/engineering)
@@ -30453,6 +30445,11 @@
 "cbq" = (
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 1
+	},
+/obj/machinery/computer/security/telescreen/normal/directional/north{
+	network = list("xeno");
+	pixel_x = 1;
+	pixel_y = 35
 	},
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
@@ -34538,6 +34535,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/machinery/computer/security/telescreen/ordnance/directional/east,
 /turf/open/floor/iron/dark/textured_edge,
 /area/station/science/ordnance/testlab)
 "cBB" = (
@@ -40440,7 +40438,6 @@
 "gCA" = (
 /obj/machinery/button/door{
 	id = "xenobio8";
-	layer = 3.3;
 	name = "Xenobio Pen 8 Blast Doors";
 	pixel_y = 4;
 	req_access = list("xenobiology")
