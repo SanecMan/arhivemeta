@@ -298,10 +298,6 @@
 /turf/open/floor/iron/dark,
 /area/station/security/execution/transfer)
 "abx" = (
-/obj/machinery/status_display/evac{
-	layer = 4;
-	pixel_y = 32
-	},
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
@@ -309,6 +305,7 @@
 	dir = 8
 	},
 /obj/effect/spawner/random/vending/colavend,
+/obj/machinery/status_display/evac/directional/north,
 /turf/open/floor/iron/white/corner{
 	dir = 1
 	},
@@ -10076,7 +10073,6 @@
 "aGC" = (
 /obj/machinery/button/door{
 	id = "xenobio5";
-	layer = 3.3;
 	name = "Xenobio Pen 5 Blast Doors";
 	pixel_y = 4;
 	req_access = list("xenobiology")
@@ -21704,7 +21700,6 @@
 	},
 /obj/machinery/button/door{
 	id = "QMLoaddoor";
-	layer = 4;
 	name = "Loading Doors";
 	pixel_x = -24;
 	pixel_y = -8;
@@ -21712,7 +21707,6 @@
 	},
 /obj/machinery/button/door{
 	id = "QMLoaddoor2";
-	layer = 4;
 	name = "Loading Doors";
 	pixel_x = -24;
 	pixel_y = 8;
@@ -28331,7 +28325,6 @@
 "bSO" = (
 /obj/machinery/button/door{
 	id = "xenobio7";
-	layer = 3.3;
 	name = "Xenobio Pen 7 Blast Doors";
 	pixel_y = 4;
 	req_access = list("xenobiology")
@@ -39911,7 +39904,6 @@
 "gdq" = (
 /obj/machinery/button/door{
 	id = "xenobio2";
-	layer = 3.3;
 	name = "Xenobio Pen 2 Blast Doors";
 	pixel_y = 4;
 	req_access = list("xenobiology")
@@ -41722,7 +41714,6 @@
 "hGP" = (
 /obj/machinery/button/door{
 	id = "xenobio3";
-	layer = 3.3;
 	name = "Xenobio Pen 3 Blast Doors";
 	pixel_y = 4;
 	req_access = list("xenobiology")
@@ -43019,6 +43010,10 @@
 /obj/effect/turf_decal/tile/red/full,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/checkpoint/medical)
+"iRN" = (
+/obj/structure/sign/warning/vacuum/external,
+/turf/closed/wall,
+/area/station/cargo/storage)
 "iRS" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
@@ -50150,7 +50145,6 @@
 "pfy" = (
 /obj/machinery/button/door{
 	id = "xenobio6";
-	layer = 3.3;
 	name = "Xenobio Pen 6 Blast Doors";
 	pixel_y = 4;
 	req_access = list("xenobiology")
@@ -54419,7 +54413,6 @@
 "sUw" = (
 /obj/machinery/button/door{
 	id = "xenobio4";
-	layer = 3.3;
 	name = "Xenobio Pen 4 Blast Doors";
 	pixel_y = 4;
 	req_access = list("xenobiology")
@@ -54746,9 +54739,7 @@
 	location = "Medbay"
 	},
 /obj/effect/turf_decal/bot,
-/obj/structure/window/reinforced/spawner/directional/east{
-	layer = 2.9
-	},
+/obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/plasticflaps/opaque,
 /turf/open/floor/iron/dark,
 /area/station/medical/storage)
@@ -55796,7 +55787,6 @@
 "ujh" = (
 /obj/machinery/button/door{
 	id = "xenobio1";
-	layer = 3.3;
 	name = "Xenobio Pen 1 Blast Doors";
 	pixel_y = 4;
 	req_access = list("xenobiology")
@@ -77908,7 +77898,7 @@ aaa
 boI
 bqi
 brJ
-boI
+blW
 brJ
 bvS
 boI
@@ -78165,7 +78155,7 @@ aaa
 blW
 bqj
 brK
-blW
+iRN
 brK
 bvT
 blW
@@ -78422,7 +78412,7 @@ blW
 blW
 bqi
 cyD
-blW
+aZE
 cyD
 bvS
 blW
