@@ -37699,6 +37699,10 @@
 	},
 /turf/open/floor/iron/small,
 /area/station/security/brig)
+"edx" = (
+/obj/structure/sign/warning/vacuum/external,
+/turf/closed/wall,
+/area/station/cargo/storage)
 "edF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/purple/visible{
 	dir = 4
@@ -43010,10 +43014,6 @@
 /obj/effect/turf_decal/tile/red/full,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/checkpoint/medical)
-"iRN" = (
-/obj/structure/sign/warning/vacuum/external,
-/turf/closed/wall,
-/area/station/cargo/storage)
 "iRS" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
@@ -78155,7 +78155,7 @@ aaa
 blW
 bqj
 brK
-iRN
+edx
 brK
 bvT
 blW
